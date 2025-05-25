@@ -51,6 +51,8 @@ A consistent navbar ensures easy access to mental health resources across device
 
 ## 📄 Self-Care & Mental Health Sections
 
+-   Information Cards: Structuring Mental Health Tips could be an idea, 
+
 ### 📱 Mobile
 
 -   Single-column layout for easy scrolling.
@@ -71,8 +73,9 @@ A consistent navbar ensures easy access to mental health resources across device
 
 ### 📱 Mobile
 
--   Scrollable breathing exercises with soft animations.
--   Simple journaling section allowing users to note feelings.
+-   breathing exercises with soft animations.
+-   adpative external helpline links 
+-   affirmations as "section breaks" so as you scroll through you get a mild affirmation. maybe.
 
 ### 💻 Desktop & Tablet
 
