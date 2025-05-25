@@ -23,7 +23,6 @@ This site follows a **mobile-first approach**, ensuring usability across devices
 ### 🌐 Navigation
 
 -   **Mobile:** Hamburger menu with slide-out drawer
-    ![Wireframe Preview](https://raw.githubusercontent.com/tbragg88/mental-health-hub/main/Wireframes/MHMWF1.png)
 -   **Tablet:** Side-drawer navigation
 -   **Desktop:** Sticky navbar with horizontal menu
 
@@ -37,9 +36,11 @@ This site follows a **mobile-first approach**, ensuring usability across devices
 
 ## 🖼️ Screenshots & UI Flow (To be added)
 
-📌 **Homepage Preview** → Introduction & navigation  
-📌 **Self-Care Section** → Practical techniques  
-📌 **Interactive Features** → Breathing guide, daily wellness tracker
+![mobile-wireframe](./Wireframes/MHMWF1.png)
+
+![Tablet-wireframe](./Wireframes/MHTWF1.png)
+
+![Desktop-wireframe](./Wireframes/MHPCWF1.png)
 
 ---
 
@@ -47,7 +48,7 @@ This site follows a **mobile-first approach**, ensuring usability across devices
 
 ### **Current Focus:**
 
-🔹 Wireframing
+🔹 Wireframing (initial commit)
 🔹 Refining Bootstrap layout for seamless responsiveness  
 🔹 Implementing breathing animation in the **hero section** (idea)
 
