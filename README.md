@@ -1,10 +1,10 @@
-# Mental Health Support Hub
+# The Awareness Project
 
 _A calming and accessible platform for mental well-being_
 
 ## 📝 Project Overview
 
-The **Mental Health Support Hub** offers beginner-friendly resources in a calming, organized, and accessible format. The site features a clean UI, smooth navigation, and interactive wellness tools to help users manage stress and learn about mental health.
+**The Awareness Project** offers beginner-friendly resources in a calming, organized, and accessible format. The site features a clean UI, smooth navigation, and interactive wellness tools to help users manage stress and learn about mental health.
 
 ## 🌟 Features
 
