@@ -52,8 +52,7 @@ _A calming and accessible platform for mental well-being_
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/TBragg88/mental-health-hub.git
-    cd mental-health-hub
+    git clone https://https://github.com/TBragg88/Mental-Awareness-Project
     ```
 2. **Open in browser:**
     - **Mac:** `open index.html`
