@@ -23,7 +23,7 @@ This site follows a **mobile-first approach**, ensuring usability across devices
 ### 🌐 Navigation
 
 -   **Mobile:** Hamburger menu with slide-out drawer
-    ![Wireframe Preview](https://github.com/tbragg88/Mental-Health-Club/Wireframes/Mental health MWF1.png)
+    ![Wireframe Preview](https://github.com/tbragg88/Wireframes/MHMWF1)
 -   **Tablet:** Side-drawer navigation
 -   **Desktop:** Sticky navbar with horizontal menu
 
