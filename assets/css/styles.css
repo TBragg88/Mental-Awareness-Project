@@ -15,8 +15,9 @@
 body {
     font-family: var(--primary-font);
     color: var(--text-color);
-    /* pushes down the heading to avoid the navbar*/
-    padding-top: 57.15px;
+}
+html {
+    scroll-padding-top: 56px; 
 }
 
 h1,
@@ -46,7 +47,8 @@ h2 {
 }
 .logo {
     width: 30px;
-    height: 30px;display
+    height: 30px;
+    display: block;
     object-fit: contain;
     border-radius: 50%;
     overflow: hidden;
@@ -207,4 +209,32 @@ h2 {
         min-height: unset;
         margin-bottom: 1.5rem;
     }
+}
+
+/* Footer */
+.site-footer {
+    background: var(--primary-color);
+    color: #fff;
+    font-family: var(--secondary-font);
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.site-footer .footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+    font-family: var(--secondary-font);
+}
+.site-footer .footer-link:hover,
+.site-footer .footer-link:focus {
+    color: var(--highlight-color);
+    text-decoration: underline;
+}
+.site-footer .footer-copy {
+    margin-top: 0.5rem;
+    color: #e4f0f6;
+    font-size: 0.95rem;
 }
