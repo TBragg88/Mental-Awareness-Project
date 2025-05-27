@@ -19,7 +19,6 @@
 Your preferred stack should include:
 - ✅ **HTML5** → Semantic structure for accessibility.
 - ✅ **CSS3 + Bootstrap** → Fluid and calming UI design.
-- ✅ **JavaScript** → Smooth transitions, interactive elements.
 - ✅ **Font Awesome + Google Fonts** → Icons & readability improvements.
 
 ---
