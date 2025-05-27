@@ -16,7 +16,7 @@ body {
     font-family: var(--primary-font);
     color: var(--text-color);
     /* pushes down the heading to avoid the navbar*/
-    padding-top: 57.15px;
+    padding-top: 56px;
 }
 
 h1,
@@ -55,7 +55,7 @@ h2 {
 /* Hero Section */
 .hero-section {
     min-height: 40vh; /* Reduced height for a banner look */
-    background: url("../Images/herohealth.png") center top/cover no-repeat;
+    background: url("../Images/hero.webp") center top/cover no-repeat;
 
     display: flex;
     align-items: flex-start; /* Align content to the top */
