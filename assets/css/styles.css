@@ -15,7 +15,17 @@
 body {
     font-family: var(--primary-font);
     color: var(--text-color);
-    padding-top: 56px; /* pushes down the heading to avoid the navbar */
+    /* Removed scroll-padding-top from body */
+}
+html {
+    scroll-padding-top: 56px; /* Ensures scroll position accounts for navbar */
+}
+
+/* Ensure headings are not hidden behind the navbar when navigated to via anchor links */
+h1,
+h2,
+h3 {
+    scroll-margin-top: 60px;
 }
 
 h1,
@@ -60,7 +70,7 @@ h2 {
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     padding-top: 4rem;
 }
-
+/* affirmation linebreak */
 .affirmation {
     font-size: 1.2rem;
     font-family: var(--secondary-font);
@@ -87,14 +97,15 @@ h2 {
 #info-section .carousel-item {
     position: relative;
     z-index: 1;
-    transition: transform 0.4s cubic-bezier(0.4, 2, 0.6, 1), z-index 0.3s, width 0.4s;
+    transition: transform 0.4s cubic-bezier(0.4, 2, 0.6, 1), z-index 0.3s,
+        width 0.4s;
 }
 #info-section .carousel-item.expanded {
     transform: scale(1.1);
 }
 
-#info-section .carousel-control-prev-icon,
-.carousel-control-next-icon {
+#info-carousel .carousel-control-prev-icon,
+#info-carousel .carousel-control-next-icon {
     background-color: var(--primary-color, #6aa9e9);
     border-radius: 50%;
     width: 5rem;
