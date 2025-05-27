@@ -15,9 +15,8 @@
 body {
     font-family: var(--primary-font);
     color: var(--text-color);
-}
-html {
-    scroll-padding-top: 56px; 
+    /* pushes down the heading to avoid the navbar*/
+    padding-top: 57.15px;
 }
 
 h1,
@@ -48,7 +47,6 @@ h2 {
 .logo {
     width: 30px;
     height: 30px;
-    display: block;
     object-fit: contain;
     border-radius: 50%;
     overflow: hidden;
@@ -80,12 +78,14 @@ h2 {
 
 /* Infomaton Section  */
 
+.carousel-item {
+    transition: transform 1.5s ease-in-out !important; /* Smooth movement */
+}
+
 .info-card {
     --bs-card-border-width: 0 !important;
-    min-height: unset;
-}
-.carousel-item.expanded .info-card {
-    min-height: 480px; /* Match this to your expanded card's height */
+    border-width: 0 !important;
+    border: none !important;
 }
 #info-section .carousel-item {
     position: relative;
@@ -173,72 +173,17 @@ h2 {
     border-radius: 1rem 1rem 0 0 !important;
 }
 
-/* Self-Care Techniques Grid */
-.selfcare-card {
-    background: #fff;
-    border-radius: 1rem;
-    box-shadow: 0 2px 16px rgba(106, 169, 233, 0.10);
-    padding: 2rem 1.5rem 1.5rem 1.5rem;
-    transition: box-shadow 0.3s, transform 0.3s;
-    font-family: var(--secondary-font);
-    color: var(--text-color);
-    position: relative;
-    overflow: hidden;
-    min-height: 220px;
-    border: none;
-}
-.selfcare-card:hover {
-    box-shadow: 0 8px 32px rgba(106, 169, 233, 0.18);
-    transform: translateY(-6px) scale(1.03);
-    background: #fafdff;
-}
-.selfcare-title {
-    color: var(--primary-color);
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-    font-family: var(--secondary-font);
-}
-.selfcare-blurb {
-    font-size: 1rem;
-    margin-bottom: 0;
-    color: var(--text-color);
-    font-family: var(--secondary-font);
-}
+/* Media Queries */
 @media (max-width: 900px) {
-    #self-care .row {
+    .info-card,
+    .carousel-item.expanded {
         flex-direction: column;
+        max-width: 95vw;
     }
-    .selfcare-card {
-        min-height: unset;
-        margin-bottom: 1.5rem;
+    .info-card .card-img-top,
+    .carousel-item.expanded .card-img-top {
+        width: 100%;
+        min-width: 0;
+        height: 180px;
     }
-}
-
-/* Footer */
-.site-footer {
-    background: var(--primary-color);
-    color: #fff;
-    font-family: var(--secondary-font);
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-.site-footer .footer-link {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s;
-    font-family: var(--secondary-font);
-}
-.site-footer .footer-link:hover,
-.site-footer .footer-link:focus {
-    color: var(--highlight-color);
-    text-decoration: underline;
-}
-.site-footer .footer-copy {
-    margin-top: 0.5rem;
-    color: #e4f0f6;
-    font-size: 0.95rem;
 }

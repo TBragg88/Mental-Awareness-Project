@@ -2,7 +2,7 @@
 
 _A calming and accessible platform for mental well-being_
 
-## 📝 Project Overview
+## 📝 Portfolio Project 1: Project Overview
 
 **The Awareness Project** offers beginner-friendly resources in a calming, organized, and accessible format. The site features a clean UI, smooth navigation, and interactive wellness tools to help users manage stress and learn about mental health.
 
@@ -12,7 +12,6 @@ _A calming and accessible platform for mental well-being_
 - Self-care strategies & guided exercises
 - Calming, responsive UI (Bootstrap-powered)
 - Accessible navigation (ARIA labels)
-- Smooth scrolling & interactive breathing guide
 
 ---
 
@@ -31,7 +30,7 @@ _A calming and accessible platform for mental well-being_
 
 ## 🖼️ Screenshots & UI Flow
 
-*To be added*
+initial wireframing and site has taken place, 
 
 ![Mobile](./Wireframes/MHMWF1.png)
 ![Tablet](./Wireframes/MHTWF1.png)
@@ -39,12 +38,28 @@ _A calming and accessible platform for mental well-being_
 
 ---
 
-## 🚀 Development Progress
+## 🚀 How AI Was Used
 
-**Current Focus**
-- [x] Wireframing (initial commit)
-- [ ] Refine Bootstrap layout for responsiveness
-- [ ] Implement breathing animation in hero section
+# How AI Enhanced This Project  
+
+Artificial Intelligence played a crucial role in shaping this project, streamlining development, and improving overall efficiency. Here’s how AI was leveraged:  
+
+## 1️⃣ Code Generation  
+AI-powered tools like **GitHub Copilot** assisted in generating structured **HTML and CSS code snippets**, accelerating development while maintaining high-quality formatting. These context-aware suggestions helped optimize workflow and reduce coding time.  
+
+## 2️⃣ Debugging & Optimization  
+Advanced **AI debugging tools** analyzed the codebase, **identified errors**, and proposed solutions. This ensured a **smoother development cycle**, minimizing bugs and enhancing the final product’s stability.  
+
+## 3️⃣ AI-Generated Imagery  
+**DALL-E**, an AI model developed by OpenAI, was used to create **custom visuals** for the website, providing unique and engaging imagery tailored to the project’s theme.  
+
+## 4️⃣ Content Assistance  
+**GitHub Copilot** facilitated **code writing** and **text refinement**, offering real-time auto-completions and intelligent suggestions that improved efficiency and readability.  
+
+## 5️⃣ Accessibility Improvements  
+AI-driven tools, such as **Lighthouse**, assessed the website’s **accessibility features**, providing recommendations to ensure a **user-friendly experience** for individuals with disabilities.  
+
+### 🔹 By integrating AI-driven solutions, this project benefited from increased **efficiency, creativity, and accessibility**, resulting in a more refined and user-centric platform.  
 
 ---
 
