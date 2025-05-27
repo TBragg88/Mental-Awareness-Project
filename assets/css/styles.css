@@ -46,7 +46,7 @@ h2 {
 }
 .logo {
     width: 30px;
-    height: 30px;
+    height: 30px;display
     object-fit: contain;
     border-radius: 50%;
     overflow: hidden;
@@ -78,6 +78,9 @@ h2 {
 
 /* Infomaton Section  */
 
+.info-card {
+    --bs-card-border-width: 0 !important;
+}
 #info-section .carousel-item {
     position: relative;
     z-index: 1;
@@ -88,7 +91,7 @@ h2 {
     transform: scale(1.1);
 }
 
-.carousel-control-prev-icon,
+#info-section .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: var(--primary-color, #6aa9e9);
     border-radius: 50%;
@@ -100,19 +103,24 @@ h2 {
     opacity: 1 !important;
 }
 
-.mental-card .card-img-top {
+#info-section .card-img-top {
     transition: width 0.4s ease, height 0.4s;
     width: 180px;
     min-width: 180px;
     height: 180px;
     object-fit: cover;
-    border-radius: 1rem 0 0 1rem;
 }
-.carousel-item.expanded .mental-card .card-img-top {
-    display: none;
+#info-section .card-title,
+.card-text {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    text-align: center;
+    transition: transform 0.4s;
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
 }
 
-.mental-card .card-body {
+#info-section .card-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,7 +130,7 @@ h2 {
     width: 100%;
 }
 
-.mental-card .content {
+.info-card .content {
     display: none;
     opacity: 0;
     transition: opacity 0.4s, margin-left 0.4s;
@@ -133,48 +141,70 @@ h2 {
     background: #fafdff;
     padding: 0.75rem;
 }
-.carousel-item.expanded .mental-card .content {
+#info-section .carousel-item.expanded .card-img-top {
+    display: none;
+}
+.carousel-item.expanded .info-card .content {
     display: block;
     opacity: 1;
     margin-left: 1.5rem;
 }
 
-.mental-card .card-title,
-.mental-card .card-text {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    text-align: center;
-    transition: transform 0.4s;
-    font-size: 1.1rem;
-    margin-bottom: 0.4rem;
-}
-.carousel-item.expanded .mental-card .card-title,
-.carousel-item.expanded .mental-card .card-text {
-    transform: none;
-    text-align: center;
-    width: 100%;
-}
-
-.carousel-item.expanded .mental-card {
+.info-card .carousel-item.expanded {
+    flex-direction: column !important;
+    max-width: 95vw;
+    min-width: 0;
+    border-radius: 1rem !important; /* fully rounded corners */
+    box-shadow: 0 2px 12px rgba(106, 169, 233, 0.1); /* mild shadow */
     max-width: 48rem;
-    border-radius: 1rem;
 }
 
-/* Media Queries */
+.info-card .card-img-top,
+.carousel-item.expanded .card-img-top {
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 180px !important;
+    border-radius: 1rem 1rem 0 0 !important;
+}
+
+/* Self-Care Techniques Grid */
+.selfcare-card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 16px rgba(106, 169, 233, 0.10);
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    transition: box-shadow 0.3s, transform 0.3s;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+    position: relative;
+    overflow: hidden;
+    min-height: 220px;
+    border: none;
+}
+.selfcare-card:hover {
+    box-shadow: 0 8px 32px rgba(106, 169, 233, 0.18);
+    transform: translateY(-6px) scale(1.03);
+    background: #fafdff;
+}
+.selfcare-title {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    font-family: var(--secondary-font);
+}
+.selfcare-blurb {
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+}
 @media (max-width: 900px) {
-    .mental-card,
-    .carousel-item.expanded .mental-card {
+    #self-care .row {
         flex-direction: column;
-        max-width: 95vw;
     }
-    .mental-card .card-img-top,
-    .carousel-item.expanded .mental-card .card-img-top {
-        width: 100%;
-        min-width: 0;
-        height: 180px;
-        border-radius: 1rem 1rem 0 0;
-    }
-    .mental-card .card-body {
-        padding: 1rem;
+    .selfcare-card {
+        min-height: unset;
+        margin-bottom: 1.5rem;
     }
 }
