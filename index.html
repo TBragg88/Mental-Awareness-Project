@@ -77,174 +77,183 @@
     <main>
         <!-- Affirmations line break -->
         <div id="affirmations" class="text-center mt-4" aria-label="Affirmations">
-            <div id="affirmation-text" class="affirmation"></div>
+            <div id="affirmation-text" class="container affirmation"></div>
         </div>
 
-        <div class="containter my-auto>
-            <p class=" text-center my-4">
-            Why Mental Health Awareness Matters
-            Mental health affects millions of people worldwide, yet stigma and misconceptions often prevent individuals
-            from seeking the support they need. Challenges such as stress, anxiety, depression, and more complex
-            conditions can impact daily life, relationships, and overall well-being.
-
-            By raising awareness, we can educate, support, and normalize conversations around mental health, creating a
-            world where individuals feel empowered rather than isolated. Everyone deserves access to understanding,
-            compassion, and the resources necessary to thrive.
-            </p>
+        <div id="affirmations-top" class="text-center my-1" aria-label="Affirmations">
+            <div id="affirmation-text-top" class="affirmation"></div>
+            <div class="container mx-auto">
+                <h2 class="display-5">Who Are We</h3>
+                <p class="text-center my-4">
+                    Why Mental Health Awareness Matters<br>
+                    Mental health affects millions of people worldwide, yet stigma and misconceptions often prevent individuals
+                    from seeking the support they need. Challenges such as stress, anxiety, depression, and more complex
+                    conditions can impact daily life, relationships, and overall well-being.<br><br>
+                    By raising awareness, we can educate, support, and normalize conversations around mental health, creating a
+                    world where individuals feel empowered rather than isolated. Everyone deserves access to understanding,
+                    compassion, and the resources necessary to thrive.
+                </p>
+                <p>
+                    We are a dedicated team passionate about making mental health resources accessible, supportive, and stigma-free for everyone. Our mission is to empower individuals with knowledge, tools, and a sense of community on their mental health journey.
+                </p>
+            </div>
         </div>
 
         <!-- Information Section Start -->
 
-        <div id="info-section" class="container py-5 my-5" aria-label="Mental Awareness Information">
-            <div class="text-center">
-                <h2 class="display-5">Mental Awareness</h2>
-                <div id="carouselExample" class="carousel slide mb-20" data-bs-ride="carousel">
-                    <div class="carousel-inner text-center">
-                        <div class="carousel-item active" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/calm-forest.png" class="card-img-top" alt="Calm Forest"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Anxiety</h5>
-                                    <p class="card-text">Feeling nervous, restless, or tense? Anxiety is common and
-                                        manageable.
-                                    </p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> You might notice yourself or a friend feeling
-                                        on edge,
-                                        worrying a lot, or having trouble relaxing.<br>
-                                        <strong>How to help:</strong> Offer a listening ear, encourage slow breathing or
-                                        a short
-                                        walk, and remind them it’s okay to ask for help. Sometimes just being there is
-                                        enough.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/peaceful-lake.png" class="card-img-top" alt="Peaceful Lake"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Depression</h5>
-                                    <p class="card-text">Persistent sadness or loss of interest can be signs of
-                                        depression.</p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Look for friends withdrawing, seeming tired, or
-                                        losing
-                                        interest in things they used to enjoy.<br>
-                                        <strong>How to help:</strong> Reach out with kindness, invite them to join you
-                                        in simple
-                                        activities, and let them know you care. Encourage talking to someone they trust.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/serene-mountain.png" class="card-img-top" alt="Serene Mountain"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Stress</h5>
-                                    <p class="card-text">Stress affects everyone. Recognizing it early can help you cope
-                                        better.
-                                    </p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Feeling overwhelmed, irritable, or having
-                                        trouble
-                                        sleeping
-                                        are common signs.<br>
-                                        <strong>How to help:</strong> Suggest taking a break, going outside, or doing
-                                        something
-                                        fun
-                                        together. Remind them it’s okay to slow down and take care of themselves.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/zen-garden.png" class="card-img-top" alt="Zen Garden"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">OCD</h5>
-                                    <p class="card-text">Obsessive thoughts and compulsive behaviors can disrupt daily
-                                        life.</p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Repetitive habits or routines, or feeling stuck
-                                        on
-                                        certain
-                                        thoughts.<br>
-                                        <strong>How to help:</strong> Be patient and non-judgmental. Offer support and
-                                        encourage
-                                        seeking help from a mental health professional if it’s interfering with daily
-                                        life.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/sunrise-meadow.png" class="card-img-top" alt="Sunrise Meadow"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">PTSD</h5>
-                                    <p class="card-text">Past trauma can have lasting effects, but healing is possible.
-                                    </p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Someone may seem jumpy, avoid reminders of a
-                                        bad event,
-                                        or
-                                        have nightmares.<br>
-                                        <strong>How to help:</strong> Listen without pushing, respect their boundaries,
-                                        and
-                                        gently
-                                        suggest talking to a professional. Let them know you’re there for them.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/peaceful-river.png" class="card-img-top" alt="Peaceful River"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Eating Disorders</h5>
-                                    <p class="card-text">Concerns about food, body image, or weight can impact health
-                                        and
-                                        happiness.
-                                    </p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Noticeable changes in eating habits, skipping
-                                        meals, or
-                                        talking a lot about weight.<br>
-                                        <strong>How to help:</strong> Offer gentle support, avoid making comments about
-                                        appearance,
-                                        and encourage them to talk to someone who can help. Remind them they’re valued
-                                        for who
-                                        they
-                                        are.
-                                    </div>
-                                </div>
-                            </div>
+        <div id="info-section" class="container pt-2 mt-5" aria-label="Mental Awareness Information">
+            <div class="container text-center">
+            <h2 class="display-5">Mental Awareness</h2>
+            <p class="mb-4 text-secondary"></p>
+                Mental health challenges come in many forms—some visible, some hidden. By learning to recognize the signs and reaching out, you can make a real difference. Sometimes, noticing and supporting someone in need can truly save a life.
+            </p>
+            <div id="carouselExample" class="carousel slide mb-20" data-bs-ride="carousel">
+                <div class="carousel-inner text-center">
+                <div class="carousel-item active" onclick="toggleExpand(this)">
+                    <div class="card mx-auto info-card" style="max-width: 28rem;">
+                    <img src="assets/Images/calm-forest.png" class="card-img-top" alt="Calm Forest"
+                        style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Anxiety</h5>
+                        <p class="card-text">Feeling nervous, restless, or tense? Anxiety is common and
+                        manageable.
+                        </p>
+                        <div class="content mt-3">
+                        <strong>How to spot it:</strong> You might notice yourself or a friend feeling
+                        on edge,
+                        worrying a lot, or having trouble relaxing.<br>
+                        <strong>How to help:</strong> Offer a listening ear, encourage slow breathing or
+                        a short
+                        walk, and remind them it’s okay to ask for help. Sometimes just being there is
+                        enough.
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    </div>
                 </div>
+
+                <div class="carousel-item" onclick="toggleExpand(this)">
+                    <div class="card mx-auto info-card" style="max-width: 28rem;">
+                    <img src="assets/Images/peaceful-lake.png" class="card-img-top" alt="Peaceful Lake"
+                        style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Depression</h5>
+                        <p class="card-text">Persistent sadness or loss of interest can be signs of
+                        depression.</p>
+                        <div class="content mt-3">
+                        <strong>How to spot it:</strong> Look for friends withdrawing, seeming tired, or
+                        losing
+                        interest in things they used to enjoy.<br>
+                        <strong>How to help:</strong> Reach out with kindness, invite them to join you
+                        in simple
+                        activities, and let them know you care. Encourage talking to someone they trust.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" onclick="toggleExpand(this)">
+                    <div class="card mx-auto info-card" style="max-width: 28rem;">
+                    <img src="assets/Images/serene-mountain.png" class="card-img-top" alt="Serene Mountain"
+                        style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Stress</h5>
+                        <p class="card-text">Stress affects everyone. Recognizing it early can help you cope
+                        better.
+                        </p>
+                        <div class="content mt-3">
+                        <strong>How to spot it:</strong> Feeling overwhelmed, irritable, or having
+                        trouble
+                        sleeping
+                        are common signs.<br>
+                        <strong>How to help:</strong> Suggest taking a break, going outside, or doing
+                        something
+                        fun
+                        together. Remind them it’s okay to slow down and take care of themselves.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" onclick="toggleExpand(this)">
+                    <div class="card mx-auto info-card" style="max-width: 28rem;">
+                    <img src="assets/Images/zen-garden.png" class="card-img-top" alt="Zen Garden"
+                        style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">OCD</h5>
+                        <p class="card-text">Obsessive thoughts and compulsive behaviors can disrupt daily
+                        life.</p>
+                        <div class="content mt-3">
+                        <strong>How to spot it:</strong> Repetitive habits or routines, or feeling stuck
+                        on
+                        certain
+                        thoughts.<br>
+                        <strong>How to help:</strong> Be patient and non-judgmental. Offer support and
+                        encourage
+                        seeking help from a mental health professional if it’s interfering with daily
+                        life.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" onclick="toggleExpand(this)">
+                    <div class="card mx-auto info-card" style="max-width: 28rem;">
+                    <img src="assets/Images/sunrise-meadow.png" class="card-img-top" alt="Sunrise Meadow"
+                        style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">PTSD</h5>
+                        <p class="card-text">Past trauma can have lasting effects, but healing is possible.
+                        </p>
+                        <div class="content mt-3">
+                        <strong>How to spot it:</strong> Someone may seem jumpy, avoid reminders of a
+                        bad event,
+                        or
+                        have nightmares.<br>
+                        <strong>How to help:</strong> Listen without pushing, respect their boundaries,
+                        and
+                        gently
+                        suggest talking to a professional. Let them know you’re there for them.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" onclick="toggleExpand(this)">
+                    <div class="card mx-auto info-card" style="max-width: 28rem;">
+                    <img src="assets/Images/peaceful-river.png" class="card-img-top" alt="Peaceful River"
+                        style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Eating Disorders</h5>
+                        <p class="card-text">Concerns about food, body image, or weight can impact health
+                        and
+                        happiness.
+                        </p>
+                        <div class="content mt-3">
+                        <strong>How to spot it:</strong> Noticeable changes in eating habits, skipping
+                        meals, or
+                        talking a lot about weight.<br>
+                        <strong>How to help:</strong> Offer gentle support, avoid making comments about
+                        appearance,
+                        and encourage them to talk to someone who can help. Remind them they’re valued
+                        for who
+                        they
+                        are.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             </div>
         </div>
 
@@ -343,9 +352,9 @@
         </div>
 
         <div id="affirmations-bottom" class="text-center my-1" aria-label="Affirmations">
-            <div id="affirmation-text-bottom" class="affirmation"></div>
+            <div id="affirmation-text-bottom" class="container affirmation"></div>
         </div>
-        <div class="container my-4 px-6">
+        <div class="container text-center px-6">
             <p>
                 "Serenity is not the absence of storms, but the ability to find peace within them. Mental health is not
                 about
