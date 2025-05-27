@@ -82,6 +82,10 @@ h2 {
 
 .info-card {
     --bs-card-border-width: 0 !important;
+    min-height: unset;
+}
+.carousel-item.expanded .info-card {
+    min-height: 480px; /* Match this to your expanded card's height */
 }
 #info-section .carousel-item {
     position: relative;
