@@ -50,7 +50,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#footer">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
         aria-label="Hero section">
         <div class="container">
             <h1 class="display-4">Mental Health Matters to Everyone</h1>
-            <p class="lead mt-3 mb-0" style="max-width: 600px; margin: 0 auto;">
+            <p class="lead mt-3 mb-0">
                 Mental health affects us all—regardless of age, background, or circumstance. By understanding,
                 supporting, and caring for ourselves and others, we can build a healthier, more compassionate community.
             </p>
@@ -78,20 +78,32 @@
         <div class="row justify-content-center text-center">
             <div class="col-12 col-md-10 col-lg-8">
                 <h2 class="display-5 my-4">Who Are We</h2>
-                <p class="py-auto">
-                    Mental health affects millions worldwide, yet stigma and misconceptions often prevent people from
-                    seeking the support they need. Challenges like stress, anxiety, and depression can impact daily life
-                    and well-being, but open conversations and education can help break down barriers.
-                    <br><br>
-                    We are a dedicated team committed to making mental health resources accessible and stigma-free. Our
-                    mission is to empower individuals with knowledge, practical tools, and a supportive community on
-                    their mental health journey.
-                </p>
+                <div class="container justify-content-center text-center px-5">
+                    <p class="px-3">
+                        Mental health affects millions worldwide, yet stigma and misconceptions often prevent people
+                        from
+                        seeking the support they need. Challenges like stress, anxiety, and depression can impact daily
+                        life
+                        and well-being, but open conversations and education can help break down barriers.
+                        <br><br>
+                        We are a dedicated team committed to making mental health resources accessible and stigma-free.
+                        Our
+                        mission is to empower individuals with knowledge, practical tools, and a supportive community on
+                        their mental health journey.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <!-- Affirmations line break -->
-        <div class="container my-4">
+            <!-- Affirmations line break -->
+            <div class="container my-4">
+                <div class="d-flex align-items-center justify-content-center">
+                    <hr class="flex-grow-1 mx-2 section-divider">
+                    <div id="affirmation-text" class="affirmation"></div>
+                    <hr class="flex-grow-1 mx-2 section-divider">
+                </div>
+            </div>
+            <!-- Information Section Start -->
+                <div class="container my-4">
             <div class="d-flex align-items-center justify-content-center">
                 <hr class="flex-grow-1 mx-2 section-divider">
                 <div id="affirmation-text" class="affirmation"></div>
@@ -173,109 +185,113 @@
 
 
 
-        <!-- Self-Care Section -->
-        <div class="container">
-            <section id="self-care" class="my-3 text-center" aria-label="Self-Care Techniques">
-                <h2 class="display-5">Self Care</h2>
-                <p class="mb-4 text-secondary">
-                    Simple, practical tips to help you care for your mind and boost your well-being every day.
-                </p>
-                <div class="row justify-content-center">
+            <!-- Self-Care Section -->
+            <div class="container">
+                <section id="self-care" class="my-3 text-center" aria-label="Self-Care Techniques">
+                    <h2 class="display-5">Self Care</h2>
+                    <p class="mb-4 text-secondary">
+                        Simple, practical tips to help you care for your mind and boost your well-being every day.
+                    </p>
+                    <div class="row justify-content-center">
 
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100">
-                            <img src="./assets/images/tip-sleep.webp" alt="Good Sleep" class="card-img-top">
-                            <div class="card-body p-3">
-                                <h5 class="card-title fs-6">Prioritize Sleep</h5>
-                                <p class="card-text small">Aim for 7–9 hours of sleep each night. Good rest helps
-                                    regulate mood, memory, and resilience.</p>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card shadow h-100">
+                                <img src="./assets/images/tip-sleep.webp" alt="Good Sleep" class="card-img-top">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title fs-6">Prioritize Sleep</h5>
+                                    <p class="card-text small">Aim for 7–9 hours of sleep each night. Good rest helps
+                                        regulate mood, memory, and resilience.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card shadow h-100">
+                                <img src="./assets/images/tip-connect.webp" alt="Connect with Others"
+                                    class="card-img-top">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title fs-6">Connect with Others</h5>
+                                    <p class="card-text small">Reach out to friends or family. Social support is vital
+                                        for
+                                        mental health, even if it’s just a quick message.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card shadow h-100">
+                                <img src="assets/images/tip-move.webp" alt="Move Your Body" class="card-img-top">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title fs-6">Move Your Body</h5>
+                                    <p class="card-text small">Physical activity, even a short walk, can boost your mood
+                                        and
+                                        reduce anxiety.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card shadow h-100">
+                                <img src="./assets/images/tip-hydrate.webp" alt="Stay Hydrated" class="card-img-top">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title fs-6">Stay Hydrated</h5>
+                                    <p class="card-text small">Drink enough water throughout the day. Hydration supports
+                                        brain function and energy levels.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card shadow h-100">
+                                <img src="./assets/images/tip-media.webp" alt="Limit Media Intake" class="card-img-top">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title fs-6">Limit Media Intake</h5>
+                                    <p class="card-text small">Give yourself permission to step back from news and
+                                        social
+                                        media when it becomes too much. Choose content that supports your well-being.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card shadow h-100">
+                                <img src="./assets/images/tip-kindness.webp" alt="Be Kind to Yourself"
+                                    class="card-img-top">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title fs-6">Be Kind to Yourself</h5>
+                                    <p class="card-text small">Treat yourself with compassion. Remember, it’s okay to
+                                        have
+                                        tough days—progress takes time.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100" style="max-width: 260px; margin: 0 auto;">
-                            <img src="./assets/images/tip-connect.webp" alt="Connect with Others" class="card-img-top"
-                                style="height:120px; object-fit:cover;">
-                            <div class="card-body p-3">
-                                <h5 class="card-title fs-6">Connect with Others</h5>
-                                <p class="card-text small">Reach out to friends or family. Social support is vital for
-                                    mental health, even if it’s just a quick message.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100">
-                            <img src="assets/images/tip-move.webp" alt="Move Your Body" class="card-img-top"
-                                style="height:120px; object-fit:cover;">
-                            <div class="card-body p-3">
-                                <h5 class="card-title fs-6">Move Your Body</h5>
-                                <p class="card-text small">Physical activity, even a short walk, can boost your mood and
-                                    reduce anxiety.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100">
-                            <img src="./assets/images/tip-hydrate.webp" alt="Stay Hydrated" class="card-img-top"
-                                style="height:120px; object-fit:cover;">
-                            <div class="card-body p-3">
-                                <h5 class="card-title fs-6">Stay Hydrated</h5>
-                                <p class="card-text small">Drink enough water throughout the day. Hydration supports
-                                    brain function and energy levels.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100">
-                            <img src="./assets/images/tip-media.webp" alt="Limit Media Intake" class="card-img-top">
-                            <div class="card-body p-3">
-                                <h5 class="card-title fs-6">Limit Media Intake</h5>
-                                <p class="card-text small">Give yourself permission to step back from news and social
-                                    media when it becomes too much. Choose content that supports your well-being.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100">
-                            <img src="./assets/images/tip-kindness.webp" alt="Be Kind to Yourself" class="card-img-top">
-                            <div class="card-body p-3">
-                                <h5 class="card-title fs-6">Be Kind to Yourself</h5>
-                                <p class="card-text small">Treat yourself with compassion. Remember, it’s okay to have
-                                    tough days—progress takes time.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                Further Resources
-            </section>
-        </div>
-
-        <!-- affirmations line break -->
-        <div class="container my-4">
-            <div class="d-flex align-items-center justify-content-center">
-                <hr class="flex-grow-1 mx-2 section-divider">
-                <div id="affirmation-text-bottom" class="affirmation"></div>
-                <hr class="flex-grow-1 mx-2 section-divider">
+                    Further Resources
+                </section>
             </div>
-        </div>
 
-        <div class="container justify-content-center text-center px-6">
-            <p>
-                "Serenity is not the absence of storms, but the ability to find peace within them. Mental health
-                is
-                not
-                about
-                never struggling, but about learning to navigate the waves with resilience, hope, and
-                self-compassion.
-                In
-                the quiet moments, we discover that healing is not a destination but a journey—one where we
-                embrace
-                our
-                imperfections, honor our emotions, and find strength in the simple act of continuing forward."
-            </p>
-        </div>
+            <!-- affirmations line break -->
+            <div class="container my-4">
+                <div class="d-flex align-items-center justify-content-center">
+                    <hr class="flex-grow-1 mx-2 section-divider">
+                    <div id="affirmation-text-bottom" class="affirmation"></div>
+                    <hr class="flex-grow-1 mx-2 section-divider">
+                </div>
+            </div>
+
+            <div class="container justify-content-center text-center px-5">
+                <p class="px-3">
+                    "Serenity is not the absence of storms, but the ability to find peace within them. Mental health
+                    is
+                    not
+                    about
+                    never struggling, but about learning to navigate the waves with resilience, hope, and
+                    self-compassion.
+                    In
+                    the quiet moments, we discover that healing is not a destination but a journey—one where we
+                    embrace
+                    our
+                    imperfections, honor our emotions, and find strength in the simple act of continuing forward."
+                </p>
+            </div>
 
     </main>
     <!-- Footer / contact section -->
@@ -290,28 +306,27 @@
                         onclick="window.location.href='tel:0123456789'">
                         Call us at 012 345 6789
                     </button>
-                    <p class="mt-3">If you or someone you know is struggling, please reach out for help. You are
+                    <p class="mt-3 px-5">If you or someone you know is struggling, please reach out for help. You are
                         not alone, and there are people who care and want to support you.</p>
 
-                    <a class="footer-externalhelp"><i class="fa-solid fa-phone"></i> 012 345 6789<br>
-                        <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
-                    </a>
+
 
                 </div>
                 <div class="col-12 col-md-4 col-xl-4">
                     <h3 class="sub-heading-color mt-2 text-end">Give Help</h3>
                 </div>
-                <div class="social-links justify-content-start my-4">
-                    <a href="https://www.instagram.com" target="_blank"
-                        aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com" target="_blank"
-                        aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
-                            class="fa-brands fa-square-facebook"></i></a>
-                    <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
-                        rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                <div class="col-12 col-md-4 col-xl-4">
+                    <div class="social-links justify-content-start my-4">
+                        <a href="https://www.instagram.com" target="_blank"
+                            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"
+                            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+                            rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
                 </div>
-
             </div>
         </div>
     </footer>
@@ -333,9 +348,14 @@
                     let section = document.querySelector(e.target.getAttribute("href"));
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        let navbarHeight;
+                        if (window.innerWidth < 992) { // Bootstrap's lg breakpoint for navbar collapse
+                            navbarHeight = 56; // Typical collapsed navbar height on mobile
+                        } else {
+                            navbarHeight = document.querySelector("#navbar").offsetHeight;
+                        }
                         window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            top: section.offsetTop - navbarHeight,
                             behavior: "smooth",
                         });
                         document

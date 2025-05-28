@@ -18,15 +18,6 @@ body {
     font-family: var(--primary-font);
     color: var(--primary-font-color);
 }
-/* html {
-    scroll-padding-top: 64px;
-} */
-
-h1,
-h2,
-h3 {
-    scroll-margin-top: 64px;
-}
 
 h1,
 h2,
@@ -83,7 +74,7 @@ h2 {
 .affirmation.visible {
     opacity: 1;
 }
-/* Section Divider */
+
 .section-divider {
     border: none;
     border-top: 2px solid var(--primary-color);
@@ -187,19 +178,6 @@ h2 {
 /* Media queries */
 
 /*  small devices (phones, 576px and up) */
-@media screen and (min-width: 576px) {
-    .info-card .card-img-top,
-    .info-card,
-    .carousel-item.expanded {
-        flex-direction: column;
-        max-width: 95vw;
-    }
-    .carousel-item.expanded .card-img-top {
-        width: 100%;
-        min-width: 0;
-        height: 180px;
-    }
-}
 
 @media (max-width: 768px) {
     #info-section .card::after {
@@ -220,19 +198,13 @@ h2 {
 /* Medium devices (tablets, 768px and up) */
 
 @media screen and (min-width: 768px) {
-    .info-card .card-img-top {
+    #info-card .card-img-top {
         width: 200px;
         height: 200px;
     }
 }
 
 /* Large devices (small laptops, 992px and up) */
-@media screen and (min-width: 992px) {
-    .info-card .card-img-top {
-        width: 220px;
-        height: 220px;
-    }
-}
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
@@ -241,4 +213,7 @@ h2 {
         max-height: 200px;
         max-width: fit-content;
     }
+}
+html {
+    scroll-padding-top: 70px; /* or match your mobile navbar height */
 }
