@@ -32,9 +32,11 @@ _A calming and accessible platform for mental well-being_
 
 initial wireframing and site has taken place,
 
-<img src="./Wireframes/MHMWF1.png" alt="Mobile Wireframe" width="300">
-<img src="./Wireframes/MHTWF1.png" alt="Tablet Wireframe" width="300">
-<img src="./Wireframes/MHPCWF1.png" alt="Desktop Wireframe" width="300">
+<div align="center">
+  <img src="./Wireframes/MHMWF1.png" alt="Mobile Wireframe" width="160"/>
+  <img src="./Wireframes/MHTWF1.png" alt="Tablet Wireframe" width="160"/>
+  <img src="./Wireframes/MHPCWF1.png" alt="Desktop Wireframe" width="160"/>
+</div>
 
 ---
 
