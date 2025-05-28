@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mental Awareness – Accessible Mental Health Support</title>
+    <title>Mental Awareness</title>
     <meta name="description"
         content="Mental Awareness provides accessible mental health information, self-care tools, and resources to help you manage stress, build resilience, and improve well-being.">
     <meta name="keywords"
         content="mental health, self-care, stress management, coping strategies, mental wellness, support, resources, mindfulness, well-being">
     <meta name="author" content="Mental Awareness Team">
-    <meta property="og:title" content="Mental Awareness – Accessible Mental Health Support">
+    <meta property="og:title" content="Mental Awareness">
     <meta property="og:description"
         content="Explore articles, interactive tools, and expert advice to support your mental health journey.">
     <meta property="og:type" content="website">
@@ -23,44 +23,42 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
+
     <!-- Navbar Start -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" aria-label="Main navigation">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#" aria-label="Mental Awareness Home">
-                <img src="assets/Images/mainicon.webp" alt="Mental Awareness logo" class="logo">
-                <span class="ms-2 fw-semibold" style="font-family: var(--primary-font); font-size: 1.25rem;">Awareness
-                    Project</span>
+            <a class="navbar-brand mx-2" href="#">
+                <img id="logo" src="./assets/images/mainicon.webp" alt="Logo for Awareness" class="logo">
+                Awareness Project
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
-                <ul class="navbar-nav mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse text-end" id="navbarNav">
+                <ul class="navbar-nav mx-4 ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#info-section">Mental Awareness</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#self-care">Self-Care</a>
+                        <a class="nav-link" href="#self-care">Self Care</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#support">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#footer">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Navbar End -->
 
     <!-- Hero Section Start -->
-    <section class="hero-section d-flex align-items-center justify-content-center text-center" id="home"
+
+    <header id="home" class="hero-section d-flex align-items-center justify-content-center text-center"
         aria-label="Hero section">
         <div class="container">
             <h1 class="display-4 fw-bold">Mental Health Matters to Everyone</h1>
@@ -69,20 +67,23 @@
                 supporting, and caring for ourselves and others, we can build a healthier, more compassionate community.
             </p>
         </div>
-    </section>
+    </header>
+
     <!-- Hero Section End -->
     <main>
+
         <!-- Affirmations line break -->
-        <div id="affirmations" class="text-center my-1" aria-label="Affirmations">
+
+        <div id="affirmations" class="text-center mt-3" aria-label="Affirmations">
             <div id="affirmation-text" class="affirmation"></div>
         </div>
+
         <!--mission statement-->
 
         <div class="row justify-content-center text-center">
             <div class="col-12 col-md-10 col-lg-8">
-                <h2 class="display-5">Who Are We</h2>
-                <p class="my-4">
-                    Why Mental Health Awareness Matters<br>
+                <h2 class="display-5 my-4">Who Are We</h2>
+                <p class="py-auto">
                     Mental health affects millions of people worldwide, yet stigma and misconceptions often
                     prevent individuals
                     from seeking the support they need. Challenges such as stress, anxiety, depression, and more
@@ -105,7 +106,7 @@
         <!-- Information Section Start -->
         <div id="info-section" class="row justify-content-center text-center">
             <div class="col-12 col-md-10 col-lg-8">
-                <h2 class="display-5">Mental Awareness</h2>
+                <h2 class="display-5 my-auto">Mental Awareness</h2>
                 <p class="mb-4 "></p>
                 Mental health challenges come in many forms—some visible, some hidden. By learning to recognize the
                 signs and reaching out, you can make a real difference. Sometimes, noticing and supporting someone in
@@ -120,7 +121,7 @@
                     <div class="carousel-inner text-center">
                         <div class="carousel-item active" onclick="toggleExpand(this)">
                             <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/calm-forest.png" class="card-img-top" alt="Calm Forest"
+                                <img src="assets/Images/anxiety.webp" class="card-img-top" alt="anxious person"
                                     style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">Anxiety</h5>
@@ -145,7 +146,7 @@
 
                         <div class="carousel-item" onclick="toggleExpand(this)">
                             <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/peaceful-lake.png" class="card-img-top" alt="Peaceful Lake"
+                                <img src="assets/Images/depression.webp" class="card-img-top" alt="depressed person"
                                     style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">Depression</h5>
@@ -337,16 +338,6 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card shadow h-100" tabindex="0">
-                            <img src="assets/images/tip-mindful.webp" alt="Mindfulness" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Practice Mindfulness</h5>
-                                <p class="card-text">Spend a few minutes noticing your thoughts and surroundings.
-                                    Mindfulness can help you feel more grounded.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card shadow h-100" tabindex="0">
                             <img src="assets/images/tip-hydrate.webp" alt="Stay Hydrated" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Stay Hydrated</h5>
@@ -357,12 +348,12 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card shadow h-100" tabindex="0">
-                            <img src="assets/images/tip-limit-news.webp" alt="Limit News Intake" class="card-img-top">
+                            <img src="assets/images/tip-media.webp" alt="Limit Media Intake" class="card-img-top">
                             <div class="card-body">
-                                <h5 class="card-title">Limit News Intake</h5>
-                                <p class="card-text">Take breaks from the news and social media if it feels
-                                    overwhelming. Focus on positive or uplifting content.</p>
+                                <h5 class="card-title">Limit Media Intake</h5>
+                                <p class="card-text">Give yourself permission to step back from news and social media when it becomes too much. Choose content that supports your well-being.</p>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
@@ -379,11 +370,13 @@
                 </div>
             </section>
         </div>
-
-        <div id="affirmations-top" class="text-center my-1" aria-label="Affirmations">
-            <div id="affirmation-text" class="container affirmation"></div>
+        <!-- affirmations line break -->
+        <div id="affirmations-bottom" class="text-center my-1" aria-label="Affirmations">
+            <div id="affirmation-text-bottom" class="affirmation"></div>
         </div>
-        <div class="container text-center px-6">
+
+
+        <div class="container justify-content-center text-center px-6">
             <p>
                 "Serenity is not the absence of storms, but the ability to find peace within them. Mental health is
                 not

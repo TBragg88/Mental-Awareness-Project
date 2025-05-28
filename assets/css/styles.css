@@ -5,27 +5,27 @@
 :root {
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
-    --primary-color: #6aa9e9; /* blue */
-    --secondary-color: #e4f0f6; /* pale blue */
-    --highlight-color: #f4d35e; /* yellow */
+    --primary-color: #72a0c0; /* blue */
+    --secondary-color: #b0cdd8; /* pale blue */
+    --primary-color-highlight: #8c9ca6; /* dark blue */
+    --secondary-color-highlight: #93d1da; /* light blue */
     --background-color: #fafafa; /* light gray */
     --text-color: #333; /* dark gray */
 }
 
 body {
+    background-color: var(--background-color);
     font-family: var(--primary-font);
-    color: var(--text-color);
-    /* Removed scroll-padding-top from body */
+    color: var(--primary-font-color);
 }
 html {
-    scroll-padding-top: 56px; /* Ensures scroll position accounts for navbar */
+    scroll-padding-top: 64px;
 }
 
-/* Ensure headings are not hidden behind the navbar when navigated to via anchor links */
 h1,
 h2,
 h3 {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 64px; /* ensures anchor links don't hide headings */
 }
 
 h1,
@@ -41,24 +41,21 @@ h2 {
     text-transform: uppercase;
 }
 
-h2 {
-    margin-bottom: 2rem;
-}
-
 /* Navbar */
-#navbar {
-    background-color: var(--primary-color);
+.logo {
+    width: 30px;
+    height: 30px;
 }
 #header .lead {
     font-family: var(--secondary-font);
 }
-.logo {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    border-radius: 50%;
-    overflow: hidden;
+#navbar {
+    background-color: var(--primary-color);
 }
+.nav-item a:hover {
+    color: var(--secondary-color-highlight); 
+}
+
 
 /* Hero Section */
 .hero-section {
@@ -74,10 +71,14 @@ h2 {
 .affirmation {
     font-size: 1.2rem;
     font-family: var(--secondary-font);
-    color: var(--primary-color);
+    color: var(--text-color);
     opacity: 0;
     transition: opacity 1s;
     min-height: 2.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .affirmation.visible {
     opacity: 1;
@@ -99,9 +100,6 @@ h2 {
     z-index: 1;
     transition: transform 0.4s cubic-bezier(0.4, 2, 0.6, 1), z-index 0.3s,
         width 0.4s;
-}
-#info-section .carousel-item.expanded {
-    transform: scale(1.1);
 }
 
 #info-carousel .carousel-control-prev-icon,
@@ -156,6 +154,9 @@ h2 {
     padding: 0.75rem;
 }
 
+#info-section .carousel-item.expanded {
+    transform: scale(1.1);
+}
 #info-section .carousel-item.expanded .card-img-top {
     display: none;
 }
@@ -182,17 +183,46 @@ h2 {
     border-radius: 1rem 1rem 0 0 !important;
 }
 
-/* Media Queries */
-@media (max-width: 900px) {
+/* Media queries */
+
+/*  small devices (phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    .info-card .card-img-top,
     .info-card,
     .carousel-item.expanded {
         flex-direction: column;
         max-width: 95vw;
     }
-    .info-card .card-img-top,
     .carousel-item.expanded .card-img-top {
         width: 100%;
         min-width: 0;
         height: 180px;
+    }
+}
+
+@media (max-width: 767.98px) {
+}
+/* Medium devices (tablets, 768px and up) */
+
+@media screen and (min-width: 768px) {
+    .info-card .card-img-top {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .info-card .card-img-top {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* make all service cards the same height for consistency */
+    #self-care .card-body {
+        min-height: 220px;
     }
 }
