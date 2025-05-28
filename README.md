@@ -6,25 +6,12 @@ _A calming and accessible platform for mental well-being_
 
 **The Awareness Project** offers beginner-friendly resources in a calming, organized, and accessible format. The site features a clean UI, smooth navigation, and interactive wellness tools to help users manage stress and learn about mental health.
 
-## 🌟 Features
+## 🌟 Brief
 
--   Simple, digestible mental health insights
--   Self-care strategies & guided exercises
--   Calming, responsive UI (Bootstrap-powered)
--   Accessible navigation (ARIA labels)
-
----
-
-## 📐 Responsive Layout
-
--   **Navigation**
-    -   Mobile: Hamburger menu with slide-out drawer
-    -   Tablet: Side-drawer navigation
-    -   Desktop: Sticky navbar with horizontal menu
--   **Core Sections**
-    -   Mental Health Basics: Beginner insights
-    -   Self-Care Strategies: Interactive guides
-    -   Resources & Support: Quick-access links
+-   A cohesive one-page layout with a main navigation menu and structured content. Semantic use of HTML. Adherence to accessibility guidelines
+-   Information organised using UX principles, User-initiated actions with immediate feedback
+-   HTML and CSS code passing W3C and Jigsaw validators with no issues.
+-   Consistent layout across different screen sizes due to CSS media queries. Clear and semantic HTML structure. Intuitive, functional navigation on the single page.
 
 ---
 
