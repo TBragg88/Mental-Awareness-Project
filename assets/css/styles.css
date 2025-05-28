@@ -83,60 +83,39 @@ h2 {
 .affirmation.visible {
     opacity: 1;
 }
-/* info-section cards  */
-#info-section .card {
-    max-width: 260px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-color: var(--text-color);
-}
 
-/* Card Images */
-#info-section .card-img-top {
-    height: 120px;
-    object-fit: cover;
-}
-
-/* Card Title Color */
-#info-section .card-title {
-    color: var(--primary-color); /* Or your preferred color */
-}
-#info-section .card-text,
-#info-section .card-body {
-    color: var(--text-color);
-}
-
-/* Card Body Padding */
-#info-section .card-body.p-3 {
-    padding: 1rem !important;
-}
+/* Cards both sections  */
 
 /* Self-Care Cards: Uniform width and centering */
+#info-section .card,
 #self-care .card {
     max-width: 260px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    text-color: var(--text-color);
 }
 
 /* Card Images */
+#info-section .card-img-top,
 #self-care .card-img-top {
     height: 120px;
     object-fit: cover;
 }
 
 /* Card Title Color */
-#self-care .card-title {
-    color: var(--primary-color); /* Or your preferred color */
+#self-care .card-title,
+#info-section .card-title {
+    color: var(--primary-color);
 }
+#info-section .card-text,
+#info-section .card-body,
 #self-care .card-text,
 #self-care .card-body {
     color: var(--text-color);
 }
 
 /* Card Body Padding */
+#info-section .card-body.p-3,
 #self-care .card-body.p-3 {
     padding: 1rem !important;
 }
