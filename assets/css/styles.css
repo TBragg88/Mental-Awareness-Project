@@ -57,6 +57,7 @@ h2 {
     justify-content: center;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     padding-top: 4rem;
+    background-position: center top; /* Reset for mobile/laptop */
 }
 /* affirmation linebreak */
 .affirmation {
@@ -91,6 +92,7 @@ h2 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1.5rem; /* Consistent vertical spacing */
 }
 
 /* Card Images */
@@ -197,23 +199,36 @@ h2 {
 
 /* Medium devices (tablets, 768px and up) */
 
-@media screen and (min-width: 768px) {
-    #info-card .card-img-top {
-        width: 200px;
-        height: 200px;
-    }
-}
-
 /* Large devices (small laptops, 992px and up) */
 
-/* xl devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-    /* make all service cards the same height for consistency */
-    #self-care .card-body {
-        max-height: 200px;
-        max-width: fit-content;
-    }
-}
 html {
     scroll-padding-top: 70px; /* or match your mobile navbar height */
+}
+
+
+@media (min-width: 1080px) {
+    .hero-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        min-height: 50vh;
+        background-position: center -60px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        min-height: 60vh;
+        background-position: center -120px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .hero-section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        min-height: 80vh;
+        background-position: center -200px; 
+    }
 }
