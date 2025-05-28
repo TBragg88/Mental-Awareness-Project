@@ -85,39 +85,16 @@ h2 {
 
 /* Cards both sections  */
 
-/* Self-Care Cards: Uniform width and centering */
 #info-section .card,
 #self-care .card {
-    max-width: 260px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1.5rem; /* Consistent vertical spacing */
-}
+    border: none;
+    margin-bottom: 2.5rem;
+    }
 
-/* Card Images */
-#info-section .card-img-top,
+#info-section .card-img-top
 #self-care .card-img-top {
-    height: 120px;
+    height: 200px;
     object-fit: cover;
-}
-
-/* Card Title Color */
-#self-care .card-title,
-#info-section .card-title {
-    color: var(--primary-color);
-}
-#info-section .card-text,
-#info-section .card-body,
-#self-care .card-text,
-#self-care .card-body {
-    color: var(--text-color);
-}
-
-/* Card Body Padding */
-#info-section .card-body.p-3,
-#self-care .card-body.p-3 {
-    padding: 1rem !important;
 }
 
 #info-section .card:hover {
@@ -145,18 +122,18 @@ h2 {
 }
 /* Footer Section */
 
-#contact {
-    background-color: var(--primary-color);
+#info-section .card-body,
+    #self-care .card-body  {
+    
     color: white;
     padding-bottom: 3rem;
 }
 
-#contact h2 {
-    color: white;
-}
 
-#contact .sub-heading-color {
-    color: var(--highlight-color-light);
+
+#info-section .card-title,
+    #self-care .card-title {
+    color: var(--primary-color);
 }
 
 #contact i {
@@ -177,10 +154,12 @@ h2 {
     color: var(--secondary-color);
 }
 
-/* Media queries */
 
-/*  small devices (phones, 576px and up) */
+html {
+    scroll-padding-top: 70px; /* or match your mobile navbar height */
+}
 
+/* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
     #info-section .card::after {
         content: "More Info";
@@ -196,15 +175,41 @@ h2 {
         white-space: nowrap;
     }
 }
-
-/* Medium devices (tablets, 768px and up) */
-
-/* Large devices (small laptops, 992px and up) */
-
-html {
-    scroll-padding-top: 70px; /* or match your mobile navbar height */
+@media screen and (min-width: 768px) {
+    /* Make all service cards the same height for consistency */
+    #info-section .card-body,
+    #self-care .card-body {
+        min-height: auto;
+        margin-top: 1rem;
+    }
 }
 
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /* Make all service cards the same height for consistency */
+     #info-section .card-body,
+    #self-care .card-body {
+        min-height: auto;
+    }
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* make all service cards the same height for consistency */
+     #info-section .card-body,
+    #self-care .card-body  {
+        min-height: 220px;
+    }
+}
+
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* make all service cards the same height for consistency */
+     #info-section .card-body,
+    #self-care .card-body  {
+        min-height: 195px;
+    }
+}
 
 @media (min-width: 1080px) {
     .hero-section {
