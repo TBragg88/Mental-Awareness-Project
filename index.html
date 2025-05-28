@@ -277,121 +277,121 @@
             </p>
         </div>
 
+    </main>
+    <!-- Footer / contact section -->
 
-        <!-- Footer / contact section -->
+    <footer id="contact" class="mt-auto">
+        <div class="container section">
+            <div class="row justify-content-center">
+                <!-- Contact info -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <h3 class="sub-heading-color mt-2">Get Help</h3>
+                    <button id="footer.call" class="btn btn-outline-dark footer-call"
+                        onclick="window.location.href='tel:0123456789'">
+                        Call us at 012 345 6789
+                    </button>
+                    <p class="mt-3">If you or someone you know is struggling, please reach out for help. You are
+                        not alone, and there are people who care and want to support you.</p>
 
-        <footer id="contact" class="mt-auto">
-            <div class="container section">
-                <div class="row justify-content-center">
-                    <!-- Contact info -->
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <h3 class="sub-heading-color mt-2">Get Help</h3>
-                        <a id="footer.call" class="footer-call" href="tel:0123456789">
-                            <button type="button" class="btn btn-outline-dark">"Call us at 012 345 6789"</button>
-                        </a>
-                        <p class="mt-3">If you or someone you know is struggling, please reach out for help. You are
-                            not alone, and there are people who care and want to support you.</p>
-
-                        <a class="footer-externalhelp" <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
-                            <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
-                            </p>
-                            <div class="social-links my-4">
-                                <a href="https://www.instagram.com" target="_blank"
-                                    aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                                        class="fa-brands fa-instagram"></i></a>
-                                <a href="https://www.facebook.com" target="_blank"
-                                    aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
-                                        class="fa-brands fa-square-facebook"></i></a>
-                                <a href="https://www.x.com" target="_blank"
-                                    aria-label="Visit our X feed (opens in a new tab)" rel="noopener"><i
-                                        class="fa-brands fa-x-twitter"></i></a>
-                            </div>
+                    <a class="footer-externalhelp"><i class="fa-solid fa-phone"></i> 012 345 6789<br>
+                        <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
+                    </a>
+                    <div class="social-links my-4">
+                        <a href="https://www.instagram.com" target="_blank"
+                            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"
+                            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+                            rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
                     </div>
-                    <!-- Opening times -->
-
                 </div>
+                <!-- Opening times -->
+
             </div>
-        </footer>
+        </div>
+    </footer>
 
 
-        <!-- javascript -->
+    <!-- javascript -->
 
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-            </script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
 
-        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-        <script>
-            document
-                .querySelectorAll(".navbar-collapse .nav-link")
-                .forEach((link) => {
-                    link.addEventListener("click", function (e) {
-                        let section = document.querySelector(e.target.getAttribute("href"));
-                        if (section) {
-                            e.preventDefault(); // Prevent default anchor click behavior
-                            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                            window.scroll({
-                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                                behavior: "smooth",
-                            });
-                            document
-                                .querySelector(".navbar-collapse")
-                                .classList.remove("show"); // Collapse navbar
-                        }
-                    });
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
                 });
-        </script>
+            });
+    </script>
 
-        <!-- Affirmations script list -->
+    <!-- Affirmations script list -->
 
-        <script>
-            const affirmationsTop = [
-                "You are stronger than you think.",
-                "Every day is a new beginning.",
-                "Your feelings are valid.",
-                "You are not alone.",
-                "Small steps are progress too.",
-                "You deserve kindness and care."
-            ];
-            const affirmationsBottom = [
-                "Take a deep breath and pause.",
-                "You matter more than you know.",
-                "Progress, not perfection.",
-                "It's okay to ask for help.",
-                "Be gentle with yourself today.",
-                "You bring value to the world."
-            ];
+    <script>
+        const affirmationsTop = [
+            "You are stronger than you think.",
+            "Every day is a new beginning.",
+            "Your feelings are valid.",
+            "You are not alone.",
+            "Small steps are progress too.",
+            "You deserve kindness and care."
+        ];
+        const affirmationsBottom = [
+            "Take a deep breath and pause.",
+            "You matter more than you know.",
+            "Progress, not perfection.",
+            "It's okay to ask for help.",
+            "Be gentle with yourself today.",
+            "You bring value to the world."
+        ];
 
-            let idxTop = 0;
-            let idxBottom = 0;
-            const elTop = document.getElementById('affirmation-text');
-            const elBottom = document.getElementById('affirmation-text-bottom');
+        let idxTop = 0;
+        let idxBottom = 0;
+        const elTop = document.getElementById('affirmation-text');
+        const elBottom = document.getElementById('affirmation-text-bottom');
 
-            function showAffirmations() {
-                if (elTop) {
-                    elTop.classList.remove('visible');
-                    setTimeout(() => {
-                        elTop.textContent = affirmationsTop[idxTop];
-                        elTop.classList.add('visible');
-                        idxTop = (idxTop + 1) % affirmationsTop.length;
-                    }, 1000);
-                }
-                if (elBottom) {
-                    elBottom.classList.remove('visible');
-                    setTimeout(() => {
-                        elBottom.textContent = affirmationsBottom[idxBottom];
-                        elBottom.classList.add('visible');
-                        idxBottom = (idxBottom + 1) % affirmationsBottom.length;
-                    }, 1000);
-                }
+        function showAffirmations() {
+            if (elTop) {
+                elTop.classList.remove('visible');
+                setTimeout(() => {
+                    elTop.textContent = affirmationsTop[idxTop];
+                    elTop.classList.add('visible');
+                    idxTop = (idxTop + 1) % affirmationsTop.length;
+                }, 1000);
             }
+            if (elBottom) {
+                elBottom.classList.remove('visible');
+                setTimeout(() => {
+                    elBottom.textContent = affirmationsBottom[idxBottom];
+                    elBottom.classList.add('visible');
+                    idxBottom = (idxBottom + 1) % affirmationsBottom.length;
+                }, 1000);
+            }
+        }
 
-            showAffirmations();
-            setInterval(showAffirmations, 7000);
-        </script>
+        showAffirmations();
+        setInterval(showAffirmations, 7000);
+    </script>
 
-        <!-- card expanding and collapsing script -->
+    <!-- card expanding and collapsing script -->
 
 
 
