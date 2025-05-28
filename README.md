@@ -38,19 +38,20 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
 
 ## 1️⃣ Code Generation
 
-AI-powered tools like **GitHub Copilot** assisted in generating structured **HTML and CSS code snippets**, accelerating development while maintaining high-quality formatting. These context-aware suggestions helped optimize workflow and reduce coding time.
+AI-powered tools, such as **GitHub Copilot**, provided structured **HTML and CSS code snippets**, offering initial support in streamlining development. However, upon review, I identified numerous extraneous classes and attributes that required refinement and optimization for cleaner, more efficient code.
+
 
 ## 2️⃣ Debugging & Optimization
 
-Advanced **AI debugging tools** analyzed the codebase, **identified errors**, and proposed solutions. This ensured a **smoother development cycle**, minimizing bugs and enhancing the final product’s stability.
+Advanced **AI debugging tools** examined the codebase, **detected errors**, and suggested solutions, streamlining the development process. This helped minimize bugs, improve stability, and provided an additional verification layer, ensuring AI-generated outputs met quality standards upon review.
 
 ## 3️⃣ AI-Generated Imagery
 
-**DALL-E**, an AI model developed by OpenAI, was used to create all images for the website.
+**DALL-E**, an AI model developed by OpenAI, was utilized to generate all images for the website. It provided a seamless experience, delivering consistent results across a diverse range of prompts.
 
 ## 4️⃣ Content Assistance
 
-**GitHub Copilot** facilitated **code writing** and **text refinement**, offering real-time auto-completions and intelligent suggestions that improved efficiency and readability.
+**GitHub Copilot** played a pivotal role in **text refinement**, delivering real-time auto-completions and intelligent suggestions that streamlined development. Every blurb on the page was AI-generated, seamlessly fitting within the overall context and enhancing readability.
 
 ## 5️⃣ Accessibility Improvements
 
