@@ -31,7 +31,8 @@ h3 {
 h1,
 h2,
 h3,
-p {
+p,
+address {
     font-family: var(--secondary-font);
     color: var(--text-color);
 }
@@ -53,9 +54,8 @@ h2 {
     background-color: var(--primary-color);
 }
 .nav-item a:hover {
-    color: var(--secondary-color-highlight); 
+    color: var(--secondary-color-highlight);
 }
-
 
 /* Hero Section */
 .hero-section {
@@ -83,104 +83,33 @@ h2 {
 .affirmation.visible {
     opacity: 1;
 }
-
-/* Information Section */
-.carousel-item {
-    transition: transform 1.5s ease-in-out !important;
+/* info-section cards  */
+#info-section .card {
+    max-width: 260px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-color: var(--text-color);
 }
 
-.info-card {
-    --bs-card-border-width: 0 !important;
-    border-width: 0 !important;
-    border: none !important;
-}
-
-#info-section .carousel-item {
-    position: relative;
-    z-index: 1;
-    transition: transform 0.4s cubic-bezier(0.4, 2, 0.6, 1), z-index 0.3s,
-        width 0.4s;
-}
-
-#info-carousel .carousel-control-prev-icon,
-#info-carousel .carousel-control-next-icon {
-    background-color: var(--primary-color, #6aa9e9);
-    border-radius: 50%;
-    width: 5rem;
-    height: 3rem;
-    background-size: 60% 60%;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
-    border: 2px solid #fff;
-    opacity: 1 !important;
-}
-
+/* Card Images */
 #info-section .card-img-top {
-    transition: width 0.4s ease, height 0.4s;
-    width: 180px;
-    min-width: 180px;
-    height: 180px;
+    height: 120px;
     object-fit: cover;
 }
 
-#info-section .card-title,
-.card-text {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    text-align: center;
-    transition: transform 0.4s;
-    font-size: 1.1rem;
-    margin-bottom: 0.4rem;
+/* Card Title Color */
+#info-section .card-title {
+    color: var(--primary-color); /* Or your preferred color */
 }
-
+#info-section .card-text,
 #info-section .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    transition: padding 0.4s;
-    padding: 1.5rem;
-    width: 100%;
-}
-
-.info-card .content {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.4s, margin-left 0.4s;
-    margin-left: 0;
-    margin-top: 0.5rem;
     color: var(--text-color);
-    font-size: 0.95rem;
-    background: #fafdff;
-    padding: 0.75rem;
 }
 
-#info-section .carousel-item.expanded {
-    transform: scale(1.1);
-}
-#info-section .carousel-item.expanded .card-img-top {
-    display: none;
-}
-.carousel-item.expanded .info-card .content {
-    display: block;
-    opacity: 1;
-    margin-left: 1.5rem;
-}
-
-.info-card .carousel-item.expanded {
-    flex-direction: column !important;
-    max-width: 95vw;
-    min-width: 0;
-    border-radius: 1rem !important;
-    box-shadow: 0 2px 12px rgba(106, 169, 233, 0.1);
-    max-width: 48rem;
-}
-
-.info-card .card-img-top,
-.carousel-item.expanded .card-img-top {
-    width: 100% !important;
-    min-width: 0 !important;
-    height: 180px !important;
-    border-radius: 1rem 1rem 0 0 !important;
+/* Card Body Padding */
+#info-section .card-body.p-3 {
+    padding: 1rem !important;
 }
 
 /* Self-Care Cards: Uniform width and centering */
@@ -189,6 +118,7 @@ h2 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    text-color: var(--text-color);
 }
 
 /* Card Images */
@@ -201,19 +131,49 @@ h2 {
 #self-care .card-title {
     color: var(--primary-color); /* Or your preferred color */
 }
+#self-care .card-text,
+#self-care .card-body {
+    color: var(--text-color);
+}
 
 /* Card Body Padding */
 #self-care .card-body.p-3 {
     padding: 1rem !important;
 }
 
-/* Responsive: Adjust card width on smaller screens if needed */
-@media (max-width: 575.98px) {
-    #self-care .card {
-        max-width: 100%;
-    }
+/* Footer Section */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
 }
 
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+}
 /* Media queries */
 
 /*  small devices (phones, 576px and up) */
@@ -254,7 +214,7 @@ h2 {
 @media screen and (min-width: 1200px) {
     /* make all service cards the same height for consistency */
     #self-care .card-body {
-        max-height:  200px;
-        max-width:fit-content
+        max-height: 200px;
+        max-width: fit-content;
     }
 }

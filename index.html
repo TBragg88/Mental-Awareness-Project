@@ -18,8 +18,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/974acc7818.js" crossorigin="anonymous"></script>
+    <!-- local CSS  -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -71,10 +72,9 @@
 
     <!-- Hero Section End -->
     <main>
-
         <!-- Affirmations line break -->
 
-        <div id="affirmations" class="text-center mt-3" aria-label="Affirmations">
+        <div id="affirmations" class=" my-0" aria-label="Affirmations">
             <div id="affirmation-text" class="affirmation"></div>
         </div>
 
@@ -84,19 +84,13 @@
             <div class="col-12 col-md-10 col-lg-8">
                 <h2 class="display-5 my-4">Who Are We</h2>
                 <p class="py-auto">
-                    Mental health affects millions of people worldwide, yet stigma and misconceptions often
-                    prevent individuals
-                    from seeking the support they need. Challenges such as stress, anxiety, depression, and more
-                    complex
-                    conditions can impact daily life, relationships, and overall well-being.<br><br>
-                    By raising awareness, we can educate, support, and normalize conversations around mental
-                    health, creating a
-                    world where individuals feel empowered rather than isolated. Everyone deserves access to
-                    understanding,
-                    compassion, and the resources necessary to thrive. <br><br>
-                    We are a dedicated team passionate about making mental health resources accessible,
-                    supportive, and stigma-free for everyone. Our mission is to empower individuals with
-                    knowledge, tools, and a sense of community on their mental health journey.
+                    Mental health affects millions worldwide, yet stigma and misconceptions often prevent people from
+                    seeking the support they need. Challenges like stress, anxiety, and depression can impact daily life
+                    and well-being, but open conversations and education can help break down barriers.
+                    <br><br>
+                    We are a dedicated team committed to making mental health resources accessible and stigma-free. Our
+                    mission is to empower individuals with knowledge, practical tools, and a supportive community on
+                    their mental health journey.
                 </p>
             </div>
         </div>
@@ -104,185 +98,71 @@
         </div>
 
         <!-- Information Section Start -->
-        <div id="info-section" class="row justify-content-center text-center">
-            <div class="col-12 col-md-10 col-lg-8">
-                <h2 class="display-5 my-auto">Mental Awareness</h2>
-                <p class="mb-4 "></p>
-                Mental health challenges come in many forms—some visible, some hidden. By learning to recognize the
-                signs and reaching out, you can make a real difference. Sometimes, noticing and supporting someone in
-                need can truly save a life.
+        <div class="container">
+            <section id="info-section" class="my-3 text-center" aria-label="Mental Health Conditions"></section>
+                <h2 class="display-5">Mental Health Conditions</h2>
+                <p class="mb-4 text-secondary">
+                    Understanding common mental health conditions is the first step towards support and healing. Here
+                    are some of the most prevalent conditions that affect people worldwide.
                 </p>
-            </div>
-        </div>
 
-        <div id="info-carousel" class="container pt-2 mt-2" aria-label="Mental Awareness Information">
-            <div class="container text-center">
-                <div id="carouselExample" class="carousel slide mb-20" data-bs-ride="carousel">
-                    <div class="carousel-inner text-center">
-                        <div class="carousel-item active" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/anxiety.webp" class="card-img-top" alt="anxious person"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Anxiety</h5>
-                                    <p class="card-text">Feeling nervous, restless, or tense? Anxiety is common and
-                                        manageable.
-                                    </p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> You might notice yourself or a friend
-                                        feeling
-                                        on edge,
-                                        worrying a lot, or having trouble relaxing.<br>
-                                        <strong>How to help:</strong> Offer a listening ear, encourage slow
-                                        breathing or
-                                        a short
-                                        walk, and remind them it’s okay to ask for help. Sometimes just being there
-                                        is
-                                        enough.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row justify-content-center">
 
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/depression.webp" class="card-img-top" alt="depressed person"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Depression</h5>
-                                    <p class="card-text">Persistent sadness or loss of interest can be signs of
-                                        depression.</p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Look for friends withdrawing, seeming
-                                        tired, or
-                                        losing
-                                        interest in things they used to enjoy.<br>
-                                        <strong>How to help:</strong> Reach out with kindness, invite them to join
-                                        you
-                                        in simple
-                                        activities, and let them know you care. Encourage talking to someone they
-                                        trust.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/serene-mountain.png" class="card-img-top" alt="Serene Mountain"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Stress</h5>
-                                    <p class="card-text">Stress affects everyone. Recognizing it early can help you
-                                        cope
-                                        better.
-                                    </p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Feeling overwhelmed, irritable, or having
-                                        trouble
-                                        sleeping
-                                        are common signs.<br>
-                                        <strong>How to help:</strong> Suggest taking a break, going outside, or
-                                        doing
-                                        something
-                                        fun
-                                        together. Remind them it’s okay to slow down and take care of themselves.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/zen-garden.png" class="card-img-top" alt="Zen Garden"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">OCD</h5>
-                                    <p class="card-text">Obsessive thoughts and compulsive behaviors can disrupt
-                                        daily
-                                        life.</p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Repetitive habits or routines, or feeling
-                                        stuck
-                                        on
-                                        certain
-                                        thoughts.<br>
-                                        <strong>How to help:</strong> Be patient and non-judgmental. Offer support
-                                        and
-                                        encourage
-                                        seeking help from a mental health professional if it’s interfering with
-                                        daily
-                                        life.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/sunrise-meadow.png" class="card-img-top" alt="Sunrise Meadow"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">PTSD</h5>
-                                    <p class="card-text">Past trauma can have lasting effects, but healing is
-                                        possible.
-                                    </p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Someone may seem jumpy, avoid reminders of
-                                        a
-                                        bad event,
-                                        or
-                                        have nightmares.<br>
-                                        <strong>How to help:</strong> Listen without pushing, respect their
-                                        boundaries,
-                                        and
-                                        gently
-                                        suggest talking to a professional. Let them know you’re there for them.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" onclick="toggleExpand(this)">
-                            <div class="card mx-auto info-card" style="max-width: 28rem;">
-                                <img src="assets/Images/peaceful-river.png" class="card-img-top" alt="Peaceful River"
-                                    style="height:180px; object-fit:cover; border-top-left-radius:1rem; border-top-right-radius:1rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Eating Disorders</h5>
-                                    <p class="card-text">Concerns about food, body image, or weight can impact
-                                        health
-                                        and
-                                        happiness.
-                                    </p>
-                                    <div class="content mt-3">
-                                        <strong>How to spot it:</strong> Noticeable changes in eating habits,
-                                        skipping
-                                        meals, or
-                                        talking a lot about weight.<br>
-                                        <strong>How to help:</strong> Offer gentle support, avoid making comments
-                                        about
-                                        appearance,
-                                        and encourage them to talk to someone who can help. Remind them they’re
-                                        valued
-                                        for who
-                                        they
-                                        are.
-                                    </div>
-                                </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card shadow h-100">
+                            <img src="assets/Images/serene-mountain.png" class="card-img-top" alt="Stress"
+                                style="height:180px; object-fit:cover;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">Stress</h5>
+                                <p class="card-text">Feeling overwhelmed, tense, or under pressure.</p>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </button>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card shadow h-100">
+                            <img src="assets/Images/anxiety.webp" class="card-img-top" alt="Generalized Anxiety Disorder"
+                                style="height:180px; object-fit:cover;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">Generalized Anxiety Disorder</h5>
+                                <p class="card-text">Persistent and excessive worry about various aspects of life.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card shadow h-100">
+                            <img src="assets/Images/sunrise-meadow.png" class="card-img-top" alt="PTSD"
+                                style="height:180px; object-fit:cover;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">PTSD</h5>
+                                <p class="card-text">Lasting effects from trauma, including flashbacks and anxiety.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card shadow h-100">
+                            <img src="assets/Images/depression.webp" class="card-img-top" alt="Depression"
+                                style="height:180px; object-fit:cover;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">Depression</h5>
+                                <p class="card-text">Ongoing sadness, loss of interest, or hopelessness.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card shadow h-100">
+                            <img src="assets/Images/peaceful-river.png" class="card-img-top" alt="Phobias"
+                                style="height:180px; object-fit:cover;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold">Phobias</h5>
+                                <p class="card-text">Intense fear of specific objects, situations, or activities.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
+
+
 
 
 
@@ -294,7 +174,7 @@
                     Simple, practical tips to help you care for your mind and boost your well-being every day.
                 </p>
                 <div class="row justify-content-center">
-                    <!-- Card 1 -->
+
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                         <div class="card shadow h-100" tabindex="0">
                             <img src="assets/images/tip-sleep.webp" alt="Good Sleep" class="card-img-top">
@@ -305,7 +185,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Card 2 -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                         <div class="card shadow h-100" tabindex="0" style="max-width: 260px; margin: 0 auto;">
                             <img src="assets/images/tip-connect.webp" alt="Connect with Others" class="card-img-top"
@@ -317,9 +196,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Card 3 -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100" tabindex="0" style="max-width: 260px; margin: 0 auto;">
+                        <div class="card shadow h-100" tabindex="0">
                             <img src="assets/images/tip-move.webp" alt="Move Your Body" class="card-img-top"
                                 style="height:120px; object-fit:cover;">
                             <div class="card-body p-3">
@@ -331,7 +209,7 @@
                     </div>
                     <!-- Card 4 -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100" tabindex="0" style="max-width: 260px; margin: 0 auto;">
+                        <div class="card shadow h-100">
                             <img src="assets/images/tip-hydrate.webp" alt="Stay Hydrated" class="card-img-top"
                                 style="height:120px; object-fit:cover;">
                             <div class="card-body p-3">
@@ -343,9 +221,8 @@
                     </div>
                     <!-- Card 5 -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100" tabindex="0" style="max-width: 260px; margin: 0 auto;">
-                            <img src="assets/images/tip-media.webp" alt="Limit Media Intake" class="card-img-top"
-                                style="height:120px; object-fit:cover;">
+                        <div class="card shadow h-100">
+                            <img src="assets/images/tip-media.webp" alt="Limit Media Intake" class="card-img-top">
                             <div class="card-body p-3">
                                 <h5 class="card-title fs-6">Limit Media Intake</h5>
                                 <p class="card-text small">Give yourself permission to step back from news and social
@@ -355,9 +232,8 @@
                     </div>
                     <!-- Card 6 -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
-                        <div class="card shadow h-100" tabindex="0" style="max-width: 260px; margin: 0 auto;">
-                            <img src="assets/images/tip-kindness.webp" alt="Be Kind to Yourself" class="card-img-top"
-                                style="height:120px; object-fit:cover;">
+                        <div class="card shadow h-100">
+                            <img src="assets/images/tip-kindness.webp" alt="Be Kind to Yourself" class="card-img-top">
                             <div class="card-body p-3">
                                 <h5 class="card-title fs-6">Be Kind to Yourself</h5>
                                 <p class="card-text small">Treat yourself with compassion. Remember, it’s okay to have
@@ -392,115 +268,124 @@
         </div>
 
 
-    </main>
-    <footer class="site-footer mt-auto py-4" aria-label="Footer">
-        <div class="container text-center">
-            <nav class="mb-2" aria-label="Footer navigation">
-                <a href="index.html" class="footer-link mx-2">Home</a>
-                <a href="#info-section" class="footer-link mx-2">Mental Awareness</a>
-                <a href="#self-care" class="footer-link mx-2">Self-Care</a>
-                <a href="#support" class="footer-link mx-2">Support</a>
-                <a href="#contact" class="footer-link mx-2">Contact</a>
-            </nav>
-            <div class="footer-copy text-secondary small">
-                &copy; 2025 Mental Awareness. All rights reserved.
-            </div>
-        </div>
-    </footer>
+        <!-- Footer / contact section -->
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        <footer id="contact" class="mt-auto">
+            <div class="container section">
+                <div class="row justify-content-center">
+                    <!-- Contact info -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="sub-heading-color mt-2">Get Help</h3>
+                        <a id="footer.call" class="footer-call" href="tel:0123456789">
+                            <button type="button" class="btn btn-outline-dark">"Call us at 012 345 6789"</button>
+                        </a>
+                        <p class="mt-3">If you or someone you know is struggling, please reach out for help. You are
+                            not alone, and there are people who care and want to support you.</p>
+
+                        <a class="footer-externalhelp" <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
+                            <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
+                            </p>
+                            <div class="social-links my-4">
+                                <a href="https://www.instagram.com" target="_blank"
+                                    aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.facebook.com" target="_blank"
+                                    aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                                        class="fa-brands fa-square-facebook"></i></a>
+                                <a href="https://www.x.com" target="_blank"
+                                    aria-label="Visit our X feed (opens in a new tab)" rel="noopener"><i
+                                        class="fa-brands fa-x-twitter"></i></a>
+                            </div>
+                    </div>
+                    <!-- Opening times -->
+
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- javascript -->
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+            </script>
+
+        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+        <script>
+            document
+                .querySelectorAll(".navbar-collapse .nav-link")
+                .forEach((link) => {
+                    link.addEventListener("click", function (e) {
+                        let section = document.querySelector(e.target.getAttribute("href"));
+                        if (section) {
+                            e.preventDefault(); // Prevent default anchor click behavior
+                            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                            window.scroll({
+                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                                behavior: "smooth",
+                            });
+                            document
+                                .querySelector(".navbar-collapse")
+                                .classList.remove("show"); // Collapse navbar
+                        }
+                    });
+                });
         </script>
 
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-    <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
-    </script>
+        <!-- Affirmations script list -->
 
-    <script>
-        const affirmationsTop = [
-            "You are stronger than you think.",
-            "Every day is a new beginning.",
-            "Your feelings are valid.",
-            "You are not alone.",
-            "Small steps are progress too.",
-            "You deserve kindness and care."
-        ];
-        const affirmationsBottom = [
-            "Take a deep breath and pause.",
-            "You matter more than you know.",
-            "Progress, not perfection.",
-            "It's okay to ask for help.",
-            "Be gentle with yourself today.",
-            "You bring value to the world."
-        ];
+        <script>
+            const affirmationsTop = [
+                "You are stronger than you think.",
+                "Every day is a new beginning.",
+                "Your feelings are valid.",
+                "You are not alone.",
+                "Small steps are progress too.",
+                "You deserve kindness and care."
+            ];
+            const affirmationsBottom = [
+                "Take a deep breath and pause.",
+                "You matter more than you know.",
+                "Progress, not perfection.",
+                "It's okay to ask for help.",
+                "Be gentle with yourself today.",
+                "You bring value to the world."
+            ];
 
-        let idxTop = 0;
-        let idxBottom = 0;
-        const elTop = document.getElementById('affirmation-text');
-        const elBottom = document.getElementById('affirmation-text-bottom');
+            let idxTop = 0;
+            let idxBottom = 0;
+            const elTop = document.getElementById('affirmation-text');
+            const elBottom = document.getElementById('affirmation-text-bottom');
 
-        function showAffirmations() {
-            if (elTop) {
-                elTop.classList.remove('visible');
-                setTimeout(() => {
-                    elTop.textContent = affirmationsTop[idxTop];
-                    elTop.classList.add('visible');
-                    idxTop = (idxTop + 1) % affirmationsTop.length;
-                }, 1000);
+            function showAffirmations() {
+                if (elTop) {
+                    elTop.classList.remove('visible');
+                    setTimeout(() => {
+                        elTop.textContent = affirmationsTop[idxTop];
+                        elTop.classList.add('visible');
+                        idxTop = (idxTop + 1) % affirmationsTop.length;
+                    }, 1000);
+                }
+                if (elBottom) {
+                    elBottom.classList.remove('visible');
+                    setTimeout(() => {
+                        elBottom.textContent = affirmationsBottom[idxBottom];
+                        elBottom.classList.add('visible');
+                        idxBottom = (idxBottom + 1) % affirmationsBottom.length;
+                    }, 1000);
+                }
             }
-            if (elBottom) {
-                elBottom.classList.remove('visible');
-                setTimeout(() => {
-                    elBottom.textContent = affirmationsBottom[idxBottom];
-                    elBottom.classList.add('visible');
-                    idxBottom = (idxBottom + 1) % affirmationsBottom.length;
-                }, 1000);
-            }
-        }
 
-        showAffirmations();
-        setInterval(showAffirmations, 7000);
-    </script>
+            showAffirmations();
+            setInterval(showAffirmations, 7000);
+        </script>
 
-    <script>
-        // Only allow one expanded card at a time, and collapse others when a new one is clicked
-        function toggleExpand(item) {
-            // Collapse all cards
-            document.querySelectorAll('.carousel-item.expanded').forEach(function (card) {
-                if (card !== item) card.classList.remove('expanded');
-            });
-            // Toggle the clicked card
-            item.classList.toggle('expanded');
-        }
+        <!-- card expanding and collapsing script -->
 
-        // Optional: collapse all cards if clicking outside the carousel
-        document.addEventListener('click', function (e) {
-            if (!e.target.closest('.carousel-inner')) {
-                document.querySelectorAll('.carousel-item.expanded').forEach(function (card) {
-                    card.classList.remove('expanded');
-                });
-            }
-        });
-    </script>
+
+
+
 </body>
 
 </html>
