@@ -60,7 +60,7 @@ h2 {
 /* Hero Section */
 .hero-section {
     min-height: 40vh;
-    background: url("../Images/hero.webp") center top/cover no-repeat;
+    background: url("../images/hero.webp") center top/cover no-repeat;
     display: flex;
     align-items: flex-start;
     justify-content: center;
