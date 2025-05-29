@@ -91,7 +91,8 @@ h2 {
     margin-bottom: 2.5rem;
 }
 
-#info-section .card-img-top #self-care .card-img-top {
+#info-section .card-img-top,
+ #self-care .card-img-top {
     height: 200px;
     object-fit: cover;
 }
@@ -102,9 +103,9 @@ h2 {
     background-color: #f0f8ff;
 }
 
-#info-section .card {
+/* #info-section .card {
     position: relative;
-}
+} */
 
 #info-section .card:hover::after {
     content: "more info";
@@ -154,6 +155,8 @@ html {
     scroll-padding-top: 70px; /* or match your mobile navbar height */
 }
 
+/* ------------------------------------------------- MEDIA QUERIES-------------------------------------------------  */
+
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
     #info-section .card::after {
@@ -171,61 +174,15 @@ html {
     }
 }
 @media screen and (min-width: 768px) {
-    /* Make all service cards the same height for consistency */
     #info-section .card-body,
     #self-care .card-body {
-        min-height: auto;
-        margin-top: 1rem;
+        min-height: 175px; /* Adjust as needed */
     }
 }
 
-/* Large devices (small laptops, 992px and up) */
-@media screen and (min-width: 992px) {
-    /* Make all service cards the same height for consistency */
-    #info-section .card-body,
-    #self-care .card-body {
-        min-height: auto;
-    }
-}
-
-/* xl devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-    /* make all service cards the same height for consistency */
-    #info-section .card-body,
-    #self-care .card-body {
-        min-height: 220px;
-    }
-}
-
-/* xxl devices (larger desktops, 1400px and up) */
-@media screen and (min-width: 1400px) {
-    /* make all service cards the same height for consistency */
-    #info-section .card-body,
-    #self-care .card-body {
-        min-height: 195px;
-    }
-}
-
-media (min-width: 1024px) {
-    .hero {
-        height: 120vh; /* Increase height for larger screens */
-        background-position: center 30%;
-    }
-}
-/* @media (min-width: 1440px) {
+@media (min-width: 1024px) {
     .hero-section {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        min-height: 60vh;
-        background-position: center -120px;
+        height: 60vh; /* Increase height for larger screens */
+        background-position: center 55%;
     }
 }
-
-@media (min-width: 2560px) {
-    .hero-section {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        min-height: 80vh;
-        background-position: center -200px; 
-    }
-} */
