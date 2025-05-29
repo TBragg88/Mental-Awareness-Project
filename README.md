@@ -105,8 +105,8 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
     All pages were validated using the [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure standards compliance and accessibility:
 
     <div align="center">
-      <img src="./Wireframes/html-validation.png" alt="HTML Validation Result" width="350"/>
-      <img src="./Wireframes/css-validation.png" alt="CSS Validation Result" width="350"/>
+      <img src="./Wireframes/html-validation.png" alt="HTML Validation Result" width="400"/>
+      <img src="./Wireframes/css-validation.png" alt="CSS Validation Result" width="400"/>
     </div>
   - **Accessibility Checks:**  
     [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
