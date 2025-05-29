@@ -22,6 +22,12 @@
     <script src="https://kit.fontawesome.com/974acc7818.js" crossorigin="anonymous"></script>
     <!-- local CSS  -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        #info-section .card-title,
+        #self-care .card-title {
+            color: var(--card-title-color);
+        }
+    </style>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -53,6 +59,9 @@
                         <a class="nav-link" href="#footer">Contact</a>
                     </li>
                 </ul>
+                <button id="nightModeToggle" class="btn btn-outline-secondary ms-2" aria-label="Toggle night mode">
+                    <i class="fa-solid fa-moon nightmode-icon"></i>
+                </button>
             </div>
         </div>
     </nav>
@@ -107,7 +116,7 @@
             <!-- Information Section Start -->
             <section id="info-section" class="my-5">
                 <div class="text-center">
-                    <h2 class="display-5">Common Conditions</h2>
+                <h2 class="display-5">Common Conditions</h2>
                     <p class="mb-4 text-secondary">
                         Understanding common mental health conditions is the first step towards support and healing.
                         Here are some of the most prevalent conditions that affect people worldwide.
@@ -185,7 +194,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <!-- affirmations line break -->
             <div class="container my-4">
                 <div class="d-flex align-items-center justify-content-center">
@@ -289,42 +298,44 @@
             </section>
 
             <section id="resources" class="my-5">
-                <div class="text-center">
-                    <h2 class="display-5">Crisis Helplines & Support</h2>
-                    <p class="mb-4 text-secondary">
-                        If you or someone you know is in crisis, experiencing suicidal thoughts, or needs to talk,
-                        please reach out to one of these UK helplines. Support is available 24/7.
+                <div class="text-center mb-4">
+                    <h2 class="display-5">Need Help Now?</h2>
+                    <p class="section-blurb">
+                        If you or someone you know is struggling, these helplines are here for you 24/7.
                     </p>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-8 d-flex flex-column align-items-center">
-                        <ul class="list-group list-group-flush w-100" style="max-width: 500px;">
-                            <li class="list-group-item bg-transparent d-flex flex-column flex-md-row justify-content-between align-items-md-center py-3">
-                                <span><strong>Samaritans:</strong></span>
-                                <span class="mt-2 mt-md-0"><a href="tel:116123">116 123</a> (free, 24/7)</span>
-                            </li>
-                            <li class="list-group-item bg-transparent d-flex flex-column flex-md-row justify-content-between align-items-md-center py-3">
-                                <span><strong>Shout (Text Support):</strong></span>
-                                <span class="mt-2 mt-md-0">Text <strong>SHOUT</strong> to <a href="sms:85258">85258</a> (free, 24/7)</span>
-                            </li>
-                            <li class="list-group-item bg-transparent d-flex flex-column flex-md-row justify-content-between align-items-md-center py-3">
-                                <span><strong>Mind Infoline:</strong></span>
-                                <span class="mt-2 mt-md-0"><a href="tel:03001233393">0300 123 3393</a> (Mon-Fri, 9am-6pm)</span>
-                            </li>
-                            <li class="list-group-item bg-transparent d-flex flex-column flex-md-row justify-content-between align-items-md-center py-3">
-                                <span><strong>Papyrus HOPELINEUK (under 35):</strong></span>
-                                <span class="mt-2 mt-md-0"><a href="tel:08000684141">0800 068 4141</a> (9am–midnight)</span>
-                            </li>
-                            <li class="list-group-item bg-transparent d-flex flex-column flex-md-row justify-content-between align-items-md-center py-3">
-                                <span><strong>Emergency Services:</strong></span>
-                                <span class="mt-2 mt-md-0"><a href="tel:999">999</a> (if you are in immediate danger)</span>
-                            </li>
-                        </ul>
-                        <div class="mt-4 text-center">
-                            <small>If you are outside the UK, please search for local mental health crisis lines or
-                                contact emergency services.</small>
+                <div class="row justify-content-center g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-sm h-100 text-center">
+                            <div class="card-body">
+                                <i class="fa-solid fa-phone fa-2x mb-2 text-danger"></i>
+                                <h5 class="card-title">Emergency Services</h5>
+                                <p class="card-text">If you are in immediate danger, call <a href="tel:999" class="fw-bold text-danger">999</a></p>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-sm h-100 text-center">
+                            <div class="card-body">
+                                <i class="fa-solid fa-user fa-2x mb-2 text-primary"></i>
+                                <h5 class="card-title">Samaritans</h5>
+                                <p class="card-text">Call <a href="tel:116123" class="fw-bold text-primary">116 123</a> (free, 24/7)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-sm h-100 text-center">
+                            <div class="card-body">
+                                <i class="fa-solid fa-comment-dots fa-2x mb-2 text-success"></i>
+                                <h5 class="card-title">Shout (Text)</h5>
+                                <p class="card-text">Text <strong>SHOUT</strong> to <a href="sms:85258" class="fw-bold text-success">85258</a> (free, 24/7)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more cards for Mind, Papyrus, etc. as needed -->
+                </div>
+                <div class="text-center mt-3">
+                    <small>If you are outside the UK, please search for local mental health crisis lines or contact emergency services.</small>
                 </div>
             </section>
 
@@ -534,6 +545,12 @@
 
         showAffirmations();
         setInterval(showAffirmations, 7000);
+    </script>
+    <script>
+        const toggle = document.getElementById('nightModeToggle');
+        toggle.addEventListener('click', () => {
+            document.body.classList.toggle('night-mode');
+        });
     </script>
 
 </body>
