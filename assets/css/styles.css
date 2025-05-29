@@ -5,12 +5,12 @@
 :root {
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
-    --primary-color: #375c6e; /* blue */
-    --secondary-color: #375c6e; /* pale blue */
-    --primary-color-highlight: #8c9ca6; /* dark blue */
-    --secondary-color-highlight: #93d1da; /* light blue */
+    --primary-color: #6AA9E9; /* blue */
+    --secondary-color: #E4F0F6; /* pale blue */
+    --primary-color-highlight: #83C1FF; /* light blue */
+    --secondary-color-highlight: #F49CBB; /* pink */
     --background-color: #fafafa; /* light gray */
-    --text-color: #333; /* dark gray */
+    --text-color: #333333; /* dark gray */
 }
 
 body {
@@ -89,11 +89,12 @@ h2 {
 #self-care .card {
     border: none;
     margin-bottom: 2.5rem;
+    height: 350px;
 }
 
 #info-section .card-img-top,
- #self-care .card-img-top {
-    height: 200px;
+#self-care .card-img-top {
+    height: 190px;
     object-fit: cover;
 }
 
@@ -102,10 +103,6 @@ h2 {
     transition: transform 0.3s ease-in-out;
     background-color: #f0f8ff;
 }
-
-/* #info-section .card {
-    position: relative;
-} */
 
 #info-section .card:hover::after {
     content: "more info";
@@ -120,20 +117,17 @@ h2 {
     border-radius: 5px;
     white-space: nowrap;
 }
-/* Footer Section */
-
 #info-section .card-body,
 #self-care .card-body {
-    color: white;
+    color: var(--background-color);
     padding-bottom: 3rem;
-    height: auto;
-    width:auto
 }
 
 #info-section .card-title,
 #self-care .card-title {
     color: var(--primary-color);
 }
+/* Footer Section */
 
 #contact i {
     color: var(--secondary-color);
@@ -175,16 +169,16 @@ html {
         white-space: nowrap;
     }
 }
-@media screen and (min-width: 768px) {
-    #info-section .card-body,
-    #self-care .card-body {
-        min-height: 175px; /* Adjust as needed */
+@media screen and (min-width: 320px) {
+    #info-section .card,
+    #self-care .card {
+        max-width: 390px;
     }
 }
 
 @media (min-width: 1024px) {
     .hero-section {
-        height: 60vh; /* Increase height for larger screens */
+        height: 60vh;
         background-position: center 55%;
     }
 }
