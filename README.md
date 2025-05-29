@@ -110,8 +110,14 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
     </div>
 
     *Tip: Images between 300–400px wide are generally clear and readable in most README views. Adjust as needed for your preferred layout.*
-  - **Accessibility Checks:**  
-    [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
+  ### Accessibility Checks
+
+  [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
+
+  <div align="center">
+    <img src="./Wireframes/lighthouse-accessibility.png" alt="Lighthouse Accessibility Report" width="320"/>
+    <img src="./Wireframes/lighthouse-contrast.png" alt="Lighthouse Color Contrast Report" width="320"/>
+  </div>
   - **Manual Testing:**  
     The site was tested on multiple devices and browsers to verify responsive design and smooth navigation.
 
