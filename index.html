@@ -22,12 +22,11 @@
     <script src="https://kit.fontawesome.com/974acc7818.js" crossorigin="anonymous"></script>
     <!-- local CSS  -->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <style>
-        #info-section .card-title,
-        #self-care .card-title {
-            color: var(--card-title-color);
-        }
-    </style>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -79,7 +78,6 @@
         </div>
     </header>
 
-    <!-- Hero Section End -->
     <main class="container my-auto">
         <div class="row">
             <!--mission statement-->
@@ -113,10 +111,10 @@
                 </div>
             </div>
 
-            <!-- Information Section Start -->
+            <!-- Information Section -->
             <section id="info-section" class="my-5">
                 <div class="text-center">
-                <h2 class="display-5">Common Conditions</h2>
+                    <h2 class="display-5">Common Conditions</h2>
                     <p class="mb-4 text-secondary">
                         Understanding common mental health conditions is the first step towards support and healing.
                         Here are some of the most prevalent conditions that affect people worldwide.
@@ -297,6 +295,7 @@
                 </div>
             </section>
 
+            <!-- Crisis Helplines Section -->
             <section id="resources" class="my-5">
                 <div class="text-center mb-4">
                     <h2 class="display-5">Need Help Now?</h2>
@@ -310,7 +309,10 @@
                             <div class="card-body">
                                 <i class="fa-solid fa-phone fa-2x mb-2 text-danger"></i>
                                 <h5 class="card-title">Emergency Services</h5>
-                                <p class="card-text">If you are in immediate danger, call <a href="tel:999" class="fw-bold text-danger">999</a></p>
+                                <p class="card-text">
+                                    If you are in immediate danger, call
+                                    <a href="tel:999" class="fw-bold text-danger">999</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -319,7 +321,9 @@
                             <div class="card-body">
                                 <i class="fa-solid fa-user fa-2x mb-2 text-primary"></i>
                                 <h5 class="card-title">Samaritans</h5>
-                                <p class="card-text">Call <a href="tel:116123" class="fw-bold text-primary">116 123</a> (free, 24/7)</p>
+                                <p class="card-text">
+                                    Call <a href="tel:116123" class="fw-bold text-primary">116 123</a> (free, 24/7)
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -328,14 +332,20 @@
                             <div class="card-body">
                                 <i class="fa-solid fa-comment-dots fa-2x mb-2 text-success"></i>
                                 <h5 class="card-title">Shout (Text)</h5>
-                                <p class="card-text">Text <strong>SHOUT</strong> to <a href="sms:85258" class="fw-bold text-success">85258</a> (free, 24/7)</p>
+                                <p class="card-text">
+                                    Text <strong>SHOUT</strong> to
+                                    <a href="sms:85258" class="fw-bold text-success">85258</a> (free, 24/7)
+                                </p>
                             </div>
                         </div>
                     </div>
                     <!-- Add more cards for Mind, Papyrus, etc. as needed -->
                 </div>
                 <div class="text-center mt-3">
-                    <small>If you are outside the UK, please search for local mental health crisis lines or contact emergency services.</small>
+                    <small>
+                        If you are outside the UK, please search for local mental health crisis lines or contact
+                        emergency services.
+                    </small>
                 </div>
             </section>
 
