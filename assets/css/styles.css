@@ -5,12 +5,12 @@
 :root {
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
-    --primary-color: #3a6ea5;
+    --primary-color: #477db6;
     --secondary-color: #ffeba1;
     --primary-color-highlight: #83c1ff;
     --secondary-color-highlight: #ffd166;
-    --background-color: #f9f1e6;
-    --text-color: #22223b;
+    --background-color: #faf9f7;
+    --text-color: #11111d;
     --card-title-color: var(--primary-color);
     --highlight-color-light: #83c1ff;
     --navbar-brand-color: #fff; /* white in normal mode */

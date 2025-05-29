@@ -30,6 +30,29 @@ _A calming and accessible platform for mental well-being_
 
 ---
 
+---
+
+## 🛠️ Features Considered But Not Included
+
+During development, several features were explored but ultimately not included in the final project to maintain clarity, accessibility, and a calming user experience:
+
+- **Image Carousel:**  
+  Initially planned for the hero or resource sections to showcase tips and affirmations. Removed as it disrupted the calm, focused flow of the site and could distract users seeking support.
+
+- **Breathing Animation:**  
+  A guided breathing exercise animation was prototyped to help users manage stress. It was omitted to keep the interface simple and avoid overwhelming first-time visitors. This feature may be revisited in future updates.
+
+- **Live Chat Widget:**  
+  Considered for instant support, but excluded to maintain privacy and reduce technical complexity for a static site. (I dont know how to Javascript)
+
+## Partial Integration
+
+- **Dark/Light Mode Toggle Animation:**  
+  More elaborate transitions were tested but replaced with a subtle, accessible toggle for a smoother experience.
+
+These decisions were made to ensure the site remains approachable, fast, and easy to navigate for all users.
+
+---
 ## 🖼️ Screenshots & UI Flow
 
 Initial wireframing  
@@ -45,9 +68,7 @@ Initial wireframing
 
 ## 🎨 Colour Palette
 
-<div align="center">
-  <img src="./wireframes/colour-pallet.png" alt="Colour Palette" width="400"/>
-</div>
+![Colour Palette](../Mental%20Awareness/wireframes/colour-pallet.png)
 
 ---
 
@@ -107,3 +128,4 @@ AI-driven tools, such as **Lighthouse**, assessed the website’s **accessibilit
 -   [Bootstrap](https://getbootstrap.com/) for layout
 -   [Font Awesome](https://fontawesome.com/) for icons
 -   External mental health resources for content accuracy
+
