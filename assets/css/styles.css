@@ -8,7 +8,7 @@
     --primary-color: #6AA9E9; /* blue */
     --secondary-color: #E4F0F6; /* pale blue */
     --primary-color-highlight: #83C1FF; /* light blue */
-    --secondary-color-highlight: #F49CBB; /* pink */
+    --secondary-color-highlight: #FFEBA1; /* pink */
     --background-color: #fafafa; /* light gray */
     --text-color: #333333; /* dark gray */
 }
@@ -89,7 +89,11 @@ h2 {
 #self-care .card {
     border: none;
     margin-bottom: 2.5rem;
-    height: 350px;
+    height: 300px;
+    width: 300px
+}
+#info-section {
+    gap: 15px;
 }
 
 #info-section .card-img-top,
