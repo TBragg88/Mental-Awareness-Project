@@ -12,6 +12,11 @@ _A calming and accessible platform for mental well-being_
 
 ---
 
+
+## 🌐 Deployed Site
+
+[https://tbragg88.github.io/Mental-Awareness-Project/](https://tbragg88.github.io/Mental-Awareness-Project/)
+
 ## 📝 Portfolio Project 1: Project Overview
 
 **The Awareness Project** offers beginner-friendly resources in a calming, organized, and accessible format. The site features a clean UI, smooth navigation, and interactive wellness tools to help users manage stress and learn about mental health.
