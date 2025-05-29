@@ -158,8 +158,8 @@ html {
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-    #info-section .card:hover:after,
-#self-care .card:hover:after {
+    #info-section .card:after,
+    #self-care .card:after {
         content: "More Info";
         position: absolute;
         bottom: -12px;
