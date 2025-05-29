@@ -68,7 +68,7 @@ Initial wireframing
 
 ## 🎨 Colour Palette
 
-![Colour Palette](../Mental%20Awareness/wireframes/colour-pallet.png)
+![Colour Palette](./Wireframes/colour-pallet.png)
 
 ---
 
