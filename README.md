@@ -70,6 +70,8 @@ Initial wireframing
 
 ![Colour Palette](./Wireframes/colour-pallet.png)
 
+The color palette was selected for its calming and accessible qualities. Soft blues and neutral tones help create a relaxed atmosphere, while accent colors provide enough contrast for clear readability. The choices aim to support a welcoming and easy-to-use experience for everyone.
+
 ---
 
 ## 🚀 How AI Was Used
