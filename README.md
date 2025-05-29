@@ -41,7 +41,7 @@ Initial wireframing
 ## 🎨 Colour Palette
 
 <div align="center">
-  <img src="./Wireframes/colour-palette.png" alt="Colour Palette" width="400"/>
+  <img src="./wireframes/colour-pallet.png" alt="Colour Palette" width="400"/>
 </div>
 
 ---
