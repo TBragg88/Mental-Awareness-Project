@@ -60,20 +60,6 @@ h1, h2 {
     text-decoration: underline;
 }
 
-/* Night mode: navbar brand and link color */
-body.night-mode {
-    --navbar-brand-color: #ffd166;
-}
-body.night-mode #navbar {
-    background-color: var(--primary-color);
-}
-body.night-mode .navbar-nav .nav-link {
-    color: var(--text-color);
-}
-body.night-mode .navbar-nav .nav-link:hover,
-body.night-mode .navbar-nav .nav-link:focus {
-    color: var(--secondary-color);
-}
 
 /* -------------------- Burger menu icon styling -------------------- */
 .navbar-toggler {
@@ -112,7 +98,7 @@ body.night-mode .hero-section {
 /* -------------------- Affirmation Linebreak -------------------- */
 .affirmation {
     font-size: 1.2rem;
-    font-family: var(--primary-font); /* Use Poppins for affirmations */
+    font-family: var(--primary-font);
     color: var(--text-color);
     opacity: 0;
     transition: opacity 1s;
@@ -330,6 +316,20 @@ html, body {
 
 /* -------------------- Night Mode Styles -------------------- */
 
+/* Night mode: navbar brand and link color */
+body.night-mode {
+    --navbar-brand-color: #ffd166;
+}
+body.night-mode #navbar {
+    background-color: var(--primary-color);
+}
+body.night-mode .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+body.night-mode .navbar-nav .nav-link:hover,
+body.night-mode .navbar-nav .nav-link:focus {
+    color: var(--secondary-color);
+}
 /* -------- Night mode toggle icon styling -------- */
 #nightModeToggle {
     border: none;

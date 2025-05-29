@@ -79,21 +79,48 @@ The color palette was selected for its calming and accessible qualities. Soft bl
 Artificial Intelligence played a crucial role in shaping this project, streamlining development, and improving overall efficiency. Here’s how AI was leveraged:
 
 1. **Code Generation:**  
-   AI-powered tools, such as **GitHub Copilot**, provided structured HTML and CSS code snippets, streamlining development. Manual review ensured code quality and efficiency.
-
+   AI-powered tools, such as **GitHub Copilot**, provided structured HTML and CSS code snippets, streamlining development. "A manual review ensured code quality. In the end, I mainly used an external Copilot for 'How can I do X?' rather than letting VS Code's internal Copilot indiscriminately shotgun lines."
 2. **Debugging & Optimization:**  
    AI debugging tools detected errors and suggested solutions, minimizing bugs and improving stability.
+   "The W3C Markup Validation Service was great for identifying issues and bad coding practices. Lighthouse was particularly helpful in assessing accessibility and ensuring sufficient text contrast for an inclusive experience."
+
 
 3. **AI-Generated Imagery:**  
    **DALL-E** was used to generate all images for the website, ensuring consistency and creativity.
+   "This was great from start to finish. As someone with little artistic talent, it provided me with enough guidance to create an aesthetic that flowed nicely."
 
 4. **Content Assistance:**  
-   **GitHub Copilot** aided in text refinement, delivering real-time suggestions for blurbs and content.
+   **GitHub Copilot** aided in text refinement, delivering real-time suggestions for blurbs and content. "Again, this is completely true—I wrote nothing on the page. Every paragraph, inspirational message, and aspiration came entirely from the AI, and it was both cohesive and comprehensive."
 
 5. **Accessibility Improvements:**  
-   Tools like **Lighthouse** assessed accessibility features and provided recommendations for a user-friendly experience.
+   Tools like **Lighthouse** assessed accessibility features and provided recommendations for a user-friendly experience. "Not only was Lighthouse useful, but the built-in Copilot was also effective at formatting and validation. It highlighted best practices for aria-label placement and suggested accessibility improvements. It was very good at that."
 
----
+  ---
+
+  ## 🧪 Testing & Validation
+
+  ### Initial Testing
+
+  - **HTML & CSS Validation:**  
+    All pages were validated using the [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure standards compliance and accessibility:
+
+    <div align="center">
+      <img src="./Wireframes/html-validation.png" alt="HTML Validation Result" width="350"/>
+      <img src="./Wireframes/css-validation.png" alt="CSS Validation Result" width="350"/>
+    </div>
+  - **Accessibility Checks:**  
+    [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
+  - **Manual Testing:**  
+    The site was tested on multiple devices and browsers to verify responsive design and smooth navigation.
+
+  ### Validation Screenshots
+
+  <div align="center">
+    <img src="./Wireframes/html-validation.png" alt="HTML Validation Screenshot" width="350"/>
+    <img src="./Wireframes/css-validation.png" alt="CSS Validation Screenshot" width="350"/>
+  </div>
+
+  ---
 
 ## 🛠️ Local Development Setup
 
