@@ -2,6 +2,16 @@
 
 _A calming and accessible platform for mental well-being_
 
+---
+
+## 🖼️ Website Mockup
+
+<div align="center">
+  <img src="./Wireframes/website-mockup.png" alt="Website Mockup" width="600"/>
+</div>
+
+---
+
 ## 📝 Portfolio Project 1: Project Overview
 
 **The Awareness Project** offers beginner-friendly resources in a calming, organized, and accessible format. The site features a clean UI, smooth navigation, and interactive wellness tools to help users manage stress and learn about mental health.
@@ -17,16 +27,22 @@ _A calming and accessible platform for mental well-being_
 
 ## 🖼️ Screenshots & UI Flow
 
-initial wireframing 
+Initial wireframing  
 <div align="center">
   <img src="./Wireframes/MHMWF1.png" alt="Mobile Wireframe" width="160"/>
   <img src="./Wireframes/MHTWF1.png" alt="Tablet Wireframe" width="160"/>
   <img src="./Wireframes/MHPCWF1.png" alt="Desktop Wireframe" width="160"/>
 </div>
 
-- Changes include: Removal of the carousel: didnt fit with theme of the project.
+- Changes include: Removal of the carousel: didn't fit with theme of the project.
 
+---
 
+## 🎨 Colour Palette
+
+<div align="center">
+  <img src="./Wireframes/colour-palette.png" alt="Colour Palette" width="400"/>
+</div>
 
 ---
 
@@ -39,7 +55,6 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
 ## 1️⃣ Code Generation
 
 AI-powered tools, such as **GitHub Copilot**, provided structured **HTML and CSS code snippets**, offering initial support in streamlining development. However, upon review, I identified numerous extraneous classes and attributes that required refinement and optimization for cleaner, more efficient code.
-
 
 ## 2️⃣ Debugging & Optimization
 
