@@ -5,8 +5,8 @@
 :root {
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
-    --primary-color: #72a0c0; /* blue */
-    --secondary-color: #b0cdd8; /* pale blue */
+    --primary-color: #375c6e; /* blue */
+    --secondary-color: #375c6e; /* pale blue */
     --primary-color-highlight: #8c9ca6; /* dark blue */
     --secondary-color-highlight: #93d1da; /* light blue */
     --background-color: #fafafa; /* light gray */
@@ -126,6 +126,8 @@ h2 {
 #self-care .card-body {
     color: white;
     padding-bottom: 3rem;
+    height: auto;
+    width:auto
 }
 
 #info-section .card-title,
