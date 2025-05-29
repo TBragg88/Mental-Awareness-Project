@@ -90,10 +90,7 @@ h2 {
     border: none;
     margin-bottom: 2.5rem;
     height: 300px;
-    width: 300px
-}
-#info-section {
-    gap: 15px;
+    width: 360px;
 }
 
 #info-section .card-img-top,
@@ -102,13 +99,14 @@ h2 {
     object-fit: cover;
 }
 
-#info-section .card:hover {
+#info-section .card:hover,
+#self-care .card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
     background-color: #f0f8ff;
 }
-
-#info-section .card:hover::after {
+#info-section .card:hover:after,
+#self-care .card:hover:after {
     content: "more info";
     position: absolute;
     bottom: -13px;
@@ -125,6 +123,7 @@ h2 {
 #self-care .card-body {
     color: var(--background-color);
     padding-bottom: 3rem;
+    height:150px;
 }
 
 #info-section .card-title,
@@ -159,7 +158,8 @@ html {
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-    #info-section .card::after {
+    #info-section .card:hover:after,
+#self-care .card:hover:after {
         content: "More Info";
         position: absolute;
         bottom: -12px;
@@ -173,10 +173,10 @@ html {
         white-space: nowrap;
     }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1020px) {
     #info-section .card,
     #self-care .card {
-        max-width: 390px;
+        max-width: 420px;
     }
 }
 
@@ -185,4 +185,11 @@ html {
         height: 60vh;
         background-position: center 55%;
     }
+}
+@media (max-width: 991.98px) {
+  #info-section .card,
+  #self-care .card {
+    width: 100%;
+    max-width: 100%;
+  }
 }
