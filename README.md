@@ -184,7 +184,10 @@ This is due to the dark mode toggle and the new burger menu that the AI provided
 ---
 
 ## 📜 Attribution & Credits
-
--   [Bootstrap](https://getbootstrap.com/) for layout
--   [Font Awesome](https://fontawesome.com/) for icons
--   External mental health resources for content accuracy
+-   [Bootstrap](https://getbootstrap.com/) for layout  
+-   [Font Awesome](https://fontawesome.com/) for icons  
+-   [DALL-E](https://openai.com/dall-e) for AI-generated images  
+-   [GitHub Copilot](https://github.com/features/copilot) for code and content assistance  
+-   [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for code validation  
+-   [Lighthouse](https://developers.google.com/web/tools/lighthouse) for accessibility and performance testing  
+-   External mental health resources for content accuracy  
