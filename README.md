@@ -93,7 +93,7 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
    **GitHub Copilot** aided in text refinement, delivering real-time suggestions for blurbs and content. "Again, this is completely true—I wrote nothing on the page. Every paragraph, inspirational message, and aspiration came entirely from the AI, and it was both cohesive and comprehensive."
 
 5. **Accessibility Improvements:**  
-    Tools like **Lighthouse** assessed accessibility features and provided recommendations for a user-friendly experience. "Not only was Lighthouse useful, but the built-in Copilot was also effective at formatting and validation. It highlighted best practices for aria-label placement and suggested accessibility improvements. It was very good at that."
+   Tools like **Lighthouse** assessed accessibility features and provided recommendations for a user-friendly experience. "Not only was Lighthouse useful, but the built-in Copilot was also effective at formatting and validation. It highlighted best practices for aria-label placement and suggested accessibility improvements. It was very good at that."
 
     ***
 
@@ -129,6 +129,17 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
 \*\*"Initial testing revealed that the mobile hero image was causing mild lag, which resulted in a lower score. Preloading and resizing the image for mobile screens is recommended.
 
 Accessibility issues in both reports stemmed from contrast problems with the 'greyer' text color."\*\*
+
+ <div align="center">
+    <br/>
+    <sub>Mobile Lighthouse Accessibility Report (Updated)</sub>
+    <br/><br/>
+    <img src="./Wireframes/mobile-lighthouse-updated.png" alt="Updated Lighthouse Accessibility Report (Mobile)" width="320"/>
+    <br/>
+    <sub>Desktop Lighthouse Color Contrast Report (Updated)</sub>
+    <br/><br/>
+    <img src="./Wireframes/desktop-lighthouse-updated.png" alt="Updated Lighthouse Color Contrast Report (Desktop)" width="320"/>
+  </div>
 
 -   **Manual Testing:**  
     The site was tested on multiple devices and browsers to verify responsive design and smooth navigation.
