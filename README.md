@@ -124,6 +124,10 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
     <br/><br/>
     <img src="./Wireframes/desktop-lighthouse.png" alt="Lighthouse Color Contrast Report (Desktop)" width="320"/>
   </div>
+
+  Initial testing showed the mobile hero image was causing mild lag, which downgraded its score; preloading and resizing the image for mobile screens is recommended.
+
+  Accessibility issues on both reports were caused by some contrast problems with the "greyer" text color.
   - **Manual Testing:**  
     The site was tested on multiple devices and browsers to verify responsive design and smooth navigation.
 
