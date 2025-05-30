@@ -134,11 +134,11 @@ Accessibility issues in both reports stemmed from contrast problems with the 'gr
     <br/>
     <sub>Mobile Lighthouse Accessibility Report (Updated)</sub>
     <br/><br/>
-    <img src="./Wireframes/mobile-lighthouse-updated.png" alt="Updated Lighthouse Accessibility Report (Mobile)" width="320"/>
+    <img src="./Wireframes/updated-mobile-lighthouse-.png" alt="Updated Lighthouse Accessibility Report (Mobile)" width="320"/>
     <br/>
     <sub>Desktop Lighthouse Color Contrast Report (Updated)</sub>
     <br/><br/>
-    <img src="./Wireframes/desktop-lighthouse-updated.png" alt="Updated Lighthouse Color Contrast Report (Desktop)" width="320"/>
+    <img src="./Wireframes/updated-desktop-lighthouse-.png" alt="Updated Lighthouse Color Contrast Report (Desktop)" width="320"/>
   </div>
 
 -   **Manual Testing:**  
