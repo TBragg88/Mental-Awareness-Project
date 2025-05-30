@@ -5,12 +5,12 @@
 :root {
     --primary-font: "Poppins", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
-    --primary-color: #477db6;
+    --primary-color: #96B7D4;
     --secondary-color: #ffeba1;
     --primary-color-highlight: #83c1ff;
     --secondary-color-highlight: #ffd166;
     --background-color: #faf9f7;
-    --text-color: #11111d;
+    --text-color: #000000;
     --card-title-color: var(--primary-color);
     --highlight-color-light: #83c1ff;
 }
@@ -262,6 +262,27 @@ body.night-mode {
 body.night-mode #navbar {
     background-color: var(--primary-color);
 }
+    /* Night mode toggle icon */
+    #nightModeToggle {
+        border: none;
+        background: none;
+        box-shadow: none;
+    }
+    .nightmode-icon {
+        color: var(--background-color);
+        font-size: 1.5rem;
+        transition: color 0.3s, transform 0.3s;
+        vertical-align: middle;
+    }
+    #nightModeToggle:hover .nightmode-icon,
+    #nightModeToggle:focus .nightmode-icon {
+        color: var(--secondary-color);
+        transform: scale(1.25);
+    }
+    body.night-mode .nightmode-icon {
+        color: var(--secondary-color);
+        text-shadow: 0 0 8px #ffd16688;
+    }
 body.night-mode .navbar-brand {
     color: #fff !important;
 }
@@ -271,27 +292,6 @@ body.night-mode .navbar-nav .nav-link {
 body.night-mode .navbar-nav .nav-link:hover,
 body.night-mode .navbar-nav .nav-link:focus {
     color: var(--secondary-color);
-}
-/* Night mode toggle icon */
-#nightModeToggle {
-    border: none;
-    background: none;
-    box-shadow: none;
-}
-.nightmode-icon {
-    color: var(--background-color);
-    font-size: 1.5rem;
-    transition: color 0.3s, transform 0.3s;
-    vertical-align: middle;
-}
-#nightModeToggle:hover .nightmode-icon,
-#nightModeToggle:focus .nightmode-icon {
-    color: var(--secondary-color);
-    transform: scale(1.25);
-}
-body.night-mode .nightmode-icon {
-    color: var(--secondary-color);
-    text-shadow: 0 0 8px #ffd16688;
 }
 body.night-mode .footer-call {
     color: #fff;
