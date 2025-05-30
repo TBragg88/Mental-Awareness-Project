@@ -115,8 +115,16 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
   [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
 
   <div align="center">
-    <img src="./Wireframes/mobile-lighthouse.png" alt="Lighthouse Accessibility Report" width="320"/>
-    <img src="./Wireframes/desktop-lighthouse.png" alt="Lighthouse Color Contrast Report" width="320"/>
+    <img src="./Wireframes/mobile-lighthouse.png" alt="Lighthouse Accessibility Report (Mobile)" width="320"/>
+    <br/>
+    <sub>Mobile Lighthouse Accessibility Report</sub>
+    <br/><br/>
+    <img src="./Wireframes/desktop-lighthouse.png" alt="Lighthouse Color Contrast Report (Desktop)" width="320"/>
+    <br/>
+    <sub>Desktop Lighthouse Color Contrast Report</sub>
+    <br/>
+    <sub>Desktop Lighthouse Color Contrast Report</sub>
+  </div>
   </div>
   - **Manual Testing:**  
     The site was tested on multiple devices and browsers to verify responsive design and smooth navigation.
