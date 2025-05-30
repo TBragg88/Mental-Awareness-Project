@@ -147,12 +147,13 @@ After creating a mobile-sized version of the header and preloading both headers,
 **Accessibility**
 Changing the neutral grays to blacks and darkening a few blues improved my score.
 
-**Best Practices**  
-The improved accessibility scores are thanks to the dark mode toggle and the new burger menu, both suggested by AI tools. These features enhance usability and navigation, and I’m keeping them as essential parts of the project.
+**Best Practices**
+This is due to the dark mode toggle and the new burger menu that the AI provided for me. I love it, so you won’t take it from me—it stays.
 
 <div align="center">
   <img src="./Wireframes/burger-moon.png" alt="Burger Menu with Moon Icon" width="120"/>
 </div>
+
 
 
 
