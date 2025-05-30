@@ -7,6 +7,7 @@
     --secondary-font: "Open Sans", sans-serif;
     --primary-color: #96B7D4;
     --secondary-color: #ffeba1;
+    --tertiary-color: #2E5570; /* card subtitle color */
     --primary-color-highlight: #83c1ff;
     --secondary-color-highlight: #ffd166;
     --background-color: #faf9f7;
@@ -168,13 +169,13 @@ body.night-mode .hero-section {
 }
 #info-section .card-title,
 #self-care .card-title {
-    color: var(--card-title-color);
+    color: var(--tertiary-color) !important;
     text-decoration: none;
     font-weight: 600;
 }
 #info-section .card-title a,
 #self-care .card-title a {
-    color: inherit;
+    color: var(--tertiary-color) !important;
     text-decoration: none;
 }
 
