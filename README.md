@@ -24,10 +24,10 @@ _A calming and accessible platform for mental well-being_
 
 ### 🌟 Brief
 
-- Cohesive one-page layout with semantic HTML and accessible navigation
-- Information organized using UX principles and user-initiated actions with feedback
-- Valid HTML and CSS (W3C/Jigsaw)
-- Responsive design with media queries
+-   Cohesive one-page layout with semantic HTML and accessible navigation
+-   Information organized using UX principles and user-initiated actions with feedback
+-   Valid HTML and CSS (W3C/Jigsaw)
+-   Responsive design with media queries
 
 ---
 
@@ -35,21 +35,21 @@ _A calming and accessible platform for mental well-being_
 
 During development, several features were explored but not included to maintain clarity, accessibility, and a calming user experience:
 
-- **Image Carousel:**  
-  Initially planned for the hero or resource sections to showcase tips and affirmations. Removed as it disrupted the calm, focused flow of the site and could distract users seeking support.
+-   **Image Carousel:**  
+    Initially planned for the hero or resource sections to showcase tips and affirmations. Removed as it disrupted the calm, focused flow of the site and could distract users seeking support.
 
-- **Breathing Animation:**  
-  A guided breathing exercise animation was prototyped to help users manage stress. It was omitted to keep the interface simple and avoid overwhelming first-time visitors. This feature may be revisited in future updates.
+-   **Breathing Animation:**  
+    A guided breathing exercise animation was prototyped to help users manage stress. It was omitted to keep the interface simple and avoid overwhelming first-time visitors. This feature may be revisited in future updates.
 
-- **Live Chat Widget:**  
-  Considered for instant support, but excluded to maintain privacy and reduce technical complexity for a static site.
+-   **Live Chat Widget:**  
+    Considered for instant support, but excluded to maintain privacy and reduce technical complexity for a static site.
 
 ---
 
 ## 🌓 Partial Integrations
 
-- **Dark/Light Mode Toggle Animation:**  
-  More elaborate transitions were tested but replaced with a subtle, accessible toggle for a smoother experience.
+-   **Dark/Light Mode Toggle Animation:**  
+    More elaborate transitions were tested but replaced with a subtle, accessible toggle for a smoother experience.
 
 These decisions were made to ensure the site remains approachable, fast, and easy to navigate for all users.
 
@@ -57,7 +57,8 @@ These decisions were made to ensure the site remains approachable, fast, and eas
 
 ## 🖼️ Screenshots & UI Flow
 
-Initial wireframing  
+Initial wireframing
+
 <div align="center">
   <img src="./Wireframes/MHMWF1.png" alt="Mobile Wireframe" width="160"/>
   <img src="./Wireframes/MHTWF1.png" alt="Tablet Wireframe" width="160"/>
@@ -84,7 +85,6 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
    AI debugging tools detected errors and suggested solutions, minimizing bugs and improving stability.
    "The W3C Markup Validation Service was great for identifying issues and bad coding practices. Lighthouse was particularly helpful in assessing accessibility and ensuring sufficient text contrast for an inclusive experience."
 
-
 3. **AI-Generated Imagery:**  
    **DALL-E** was used to generate all images for the website, ensuring consistency and creativity.
    "This was great from start to finish. As someone with little artistic talent, it provided me with enough guidance to create an aesthetic that flowed nicely."
@@ -93,15 +93,15 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
    **GitHub Copilot** aided in text refinement, delivering real-time suggestions for blurbs and content. "Again, this is completely true—I wrote nothing on the page. Every paragraph, inspirational message, and aspiration came entirely from the AI, and it was both cohesive and comprehensive."
 
 5. **Accessibility Improvements:**  
-   Tools like **Lighthouse** assessed accessibility features and provided recommendations for a user-friendly experience. "Not only was Lighthouse useful, but the built-in Copilot was also effective at formatting and validation. It highlighted best practices for aria-label placement and suggested accessibility improvements. It was very good at that."
+    Tools like **Lighthouse** assessed accessibility features and provided recommendations for a user-friendly experience. "Not only was Lighthouse useful, but the built-in Copilot was also effective at formatting and validation. It highlighted best practices for aria-label placement and suggested accessibility improvements. It was very good at that."
 
-  ---
+    ***
 
-  ## 🧪 Testing & Validation
+## 🧪 Testing & Validation
 
-  ### Initial Testing
+### Initial Testing
 
-  - **HTML & CSS Validation:**  
+-   **HTML & CSS Validation:**  
     All pages were validated using the [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure standards compliance and accessibility:
 
     <div align="center">
@@ -109,10 +109,11 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
       <img src="./Wireframes/css-validation.png" alt="CSS Validation Result" width="320"/>
     </div>
 
-    *Tip: Images between 300–400px wide are generally clear and readable in most README views. Adjust as needed for your preferred layout.*
-  ### Accessibility Checks
+    _Tip: Images between 300–400px wide are generally clear and readable in most README views. Adjust as needed for your preferred layout._
 
-  [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
+### Accessibility Checks
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
 
   <div align="center">
     <br/>
@@ -125,14 +126,14 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
     <img src="./Wireframes/desktop-lighthouse.png" alt="Lighthouse Color Contrast Report (Desktop)" width="320"/>
   </div>
 
-  Initial testing showed the mobile hero image was causing mild lag, which downgraded its score; preloading and resizing the image for mobile screens is recommended.
+\*\*"Initial testing revealed that the mobile hero image was causing mild lag, which resulted in a lower score. Preloading and resizing the image for mobile screens is recommended.
 
-  Accessibility issues on both reports were caused by some contrast problems with the "greyer" text color.
-  - **Manual Testing:**  
+Accessibility issues in both reports stemmed from contrast problems with the 'greyer' text color."\*\*
+
+-   **Manual Testing:**  
     The site was tested on multiple devices and browsers to verify responsive design and smooth navigation.
 
-
-  ---
+---
 
 ## 🛠️ Local Development Setup
 
@@ -148,16 +149,15 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
 
 ## 🌍 Hosting & Deployment
 
-- **GitHub Pages:**  
-  Deploy from the main branch via repository settings.
-- **Alternative:**  
-  Netlify or similar static site hosts.
+-   **GitHub Pages:**  
+    Deploy from the main branch via repository settings.
+-   **Alternative:**  
+    Netlify or similar static site hosts.
 
 ---
 
 ## 📜 Attribution & Credits
 
-- [Bootstrap](https://getbootstrap.com/) for layout
-- [Font Awesome](https://fontawesome.com/) for icons
-- External mental health resources for content accuracy
-
+-   [Bootstrap](https://getbootstrap.com/) for layout
+-   [Font Awesome](https://fontawesome.com/) for icons
+-   External mental health resources for content accuracy
