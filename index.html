@@ -33,37 +33,36 @@
 
     <!-- Navbar Start -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="light" aria-label="Main navigation">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="assets/images/mainicon.webp" alt="Mental Awareness Logo" class="logo me-2" />
-                Awareness <span class="d-none d-sm-inline">Project</span>
-            </a>
+    <div class="container d-flex align-items-center">
+        <!-- Keep Brand Fixed to the Left -->
+        <a class="navbar-brand d-flex align-items-center me-auto" href="#">
+            <img src="assets/images/mainicon.webp" alt="Mental Awareness Logo" class="logo me-2" />
+            Awareness <span class="d-none d-sm-inline">Project</span>
+        </a>
+
+        <!-- Wrap Burger Menu & Night Mode Toggle Together -->
+        <div class="d-flex align-items-center order-lg-last">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse text-end" id="navbarNav">
-                <ul class="navbar-nav mx-4 ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#info-section">Mental Awareness</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#self-care">Self Care</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#footer">Contact</a>
-                    </li>
-                </ul>
-                <button id="nightModeToggle" class="btn btn-outline-secondary ms-2" aria-label="Toggle night mode">
-                    <i class="fa-solid fa-moon nightmode-icon"></i>
-                </button>
-            </div>
+            <button id="nightModeToggle" class="btn btn-outline-secondary ms-2" aria-label="Toggle night mode">
+                <i class="fa-solid fa-moon nightmode-icon"></i>
+            </button>
         </div>
-    </nav>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarNav">
+            <ul class="navbar-nav mx-4 ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#info-section">Mental Awareness</a></li>
+                <li class="nav-item"><a class="nav-link" href="#self-care">Self Care</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resources">Help Lines</a></li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
     <!-- Hero Section Start -->
 
@@ -83,8 +82,8 @@
             <!--mission statement-->
 
             <div class="container justify-content-center text-center px-5">
-                <p class="px-3">
                 <h2 class="display-5 my-4">Who Are We</h2>
+
 
                 <p>
                     Mental health affects millions worldwide, yet stigma and misconceptions often prevent people
@@ -178,8 +177,8 @@
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center align-items-stretch">
-                    <a href="https://www.nhs.uk/mental-health/conditions/phobias/" class="text-decoration-none w-100 h-100"
-                        target="_blank" rel="noopener">
+                    <a href="https://www.nhs.uk/mental-health/conditions/phobias/"
+                        class="text-decoration-none w-100 h-100" target="_blank" rel="noopener">
                         <div class="card shadow h-100">
                             <img src="./assets/images/phobia.webp" alt="Phobias" class="card-img-top">
                             <div class="card-body">
@@ -346,7 +345,7 @@
                                 </a>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                                <span><strong>Papyrus HOPELINEUK</strong>  (suicide prevention)</span>
+                                <span><strong>Papyrus HOPELINEUK</strong> (suicide prevention)</span>
                                 <a href="tel:08000684141" class="btn helpline-btn" data-text="Papyrus HOPELINEUK">
                                     <i class="fa-solid fa-phone"></i> Call 0800 068 4141
                                 </a>
