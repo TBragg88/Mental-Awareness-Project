@@ -85,6 +85,25 @@ body.night-mode .navbar-toggler-icon {
     filter: drop-shadow(0 0 8px #ffd16688);
 }
 
+/* Night Mode Toggle */
+#nightModeToggle {
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+.nightmode-icon {
+    color: var(--background-color);
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+    vertical-align: middle;
+}
+#nightModeToggle:hover .nightmode-icon,
+#nightModeToggle:focus .nightmode-icon,
+body.night-mode .nightmode-icon {
+    color: var(--secondary-color);
+    text-shadow: 0 0 8px #ffd16688;
+    transform: scale(1.25);
+}
 
 /* -------------------- Hero Section -------------------- */
 .hero-section {
@@ -93,12 +112,15 @@ body.night-mode .navbar-toggler-icon {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-
     padding-top: 4rem;
 }
 body.night-mode .hero-section {
     background-image: url("../images/hero-night.webp");
     background-position: center 85%;
+}
+body.night-mode .hero-section,
+body.night-mode .hero-section h1 {
+    text-shadow: 0 2px 8px #000, 0 1px 2px #232946;
 }
 
 /* -------------------- Affirmation Linebreak -------------------- */
@@ -179,6 +201,14 @@ body.night-mode .hero-section {
     text-decoration: none;
 }
 
+/* Night mode specific styles for card titles */
+body.night-mode #info-section .card-title,
+body.night-mode #self-care .card-title,
+body.night-mode #info-section .card-title a,
+body.night-mode #self-care .card-title a {
+    color: var(--secondary-color) !important;
+}
+
 /* -------------------- Resource Section -------------------- */
 #resources .btn {
     color: var(--tertiary-color);
@@ -201,7 +231,7 @@ body.night-mode .hero-section {
     text-decoration: none;
 }
 #resources .list-group {
-    border-radius: 15px; /* Rounds the whole list group */
+    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -255,75 +285,55 @@ body.night-mode {
     --secondary-color: #ffd166;
     --background-color: #121629;
     --text-color: #f4f4f4;
-    --card-title-color: var(--secondary-color);
     --navbar-brand-color: #ffd166;
-    background-color: var(--background-color);
+    background: var(--background-color);
     color: var(--text-color);
 }
-body.night-mode #navbar {
-    background-color: var(--primary-color);
-}
-    /* Night mode toggle icon */
-    #nightModeToggle {
-        border: none;
-        background: none;
-        box-shadow: none;
-    }
-    .nightmode-icon {
-        color: var(--background-color);
-        font-size: 1.5rem;
-        transition: color 0.3s, transform 0.3s;
-        vertical-align: middle;
-    }
-    #nightModeToggle:hover .nightmode-icon,
-    #nightModeToggle:focus .nightmode-icon {
-        color: var(--secondary-color);
-        transform: scale(1.25);
-    }
-    body.night-mode .nightmode-icon {
-        color: var(--secondary-color);
-        text-shadow: 0 0 8px #ffd16688;
-    }
-body.night-mode .navbar-brand {
+
+/* Navbar Styling */
+body.night-mode #navbar,
+body.night-mode .footer-call {
+    background: var(--primary-color);
     color: #fff !important;
 }
+
+/* Navbar Links */
+body.night-mode .navbar-brand,
 body.night-mode .navbar-nav .nav-link {
     color: var(--text-color);
+    transition: color 0.3s ease-in-out;
 }
 body.night-mode .navbar-nav .nav-link:hover,
 body.night-mode .navbar-nav .nav-link:focus {
     color: var(--secondary-color);
 }
+
+/* Night Mode Toggle */
+body.night-mode .nightmode-icon {
+    text-shadow: 0 0 8px #ffd16688;
+    transform: scale(1.25);
+}
+
+/* Footer Call Button */
 body.night-mode .footer-call {
-    color: #fff;
-    background: transparent;
     border: 2px solid #fff;
+    background: transparent;
+    transition: 0.3s;
 }
 body.night-mode .footer-call:hover,
 body.night-mode .footer-call:focus {
-    color: #232946;
+    color: var(--primary-color);
     background: var(--secondary-color);
     border-color: var(--secondary-color);
     transform: scale(1.08);
 }
+
+/* Text Enhancements */
 body.night-mode .section-blurb,
 body.night-mode h2 + p,
 body.night-mode h3 + p {
     color: var(--secondary-color);
     text-shadow: 0 1px 8px #23294644;
-}
-
-body.night-mode .hero-section,
-body.night-mode .hero-section h1 {
-    text-shadow: 0 2px 8px #000, 0 1px 2px #232946;
-}
-/* -------- Subheading Blurbs for normal mode contrast------ */
-.section-blurb,
-h2 + p,
-h3 + p {
-    color: var(--text-color);
-    font-weight: 500;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
 }
 
 /* -------------------- Media Queries -------------------- */
