@@ -201,13 +201,7 @@ body.night-mode .hero-section h1 {
     text-decoration: none;
 }
 
-/* Night mode specific styles for card titles */
-body.night-mode #info-section .card-title,
-body.night-mode #self-care .card-title,
-body.night-mode #info-section .card-title a,
-body.night-mode #self-care .card-title a {
-    color: var(--secondary-color) !important;
-}
+
 
 /* -------------------- Resource Section -------------------- */
 #resources .btn {
@@ -258,7 +252,7 @@ footer .social-links i:hover {
     color: var(--secondary-color);
 }
 
-/* Footer Call button styling */
+
 .footer-call {
     color: var(--text-color);
     background: #fff;
@@ -313,7 +307,13 @@ body.night-mode .nightmode-icon {
     text-shadow: 0 0 8px #ffd16688;
     transform: scale(1.25);
 }
-
+/* night mode cards styling */
+body.night-mode #info-section .card-title,
+body.night-mode #self-care .card-title,
+body.night-mode #info-section .card-title a,
+body.night-mode #self-care .card-title a {
+    color: var(--secondary-color) !important;
+}
 /* Footer Call Button */
 body.night-mode .footer-call {
     border: 2px solid #fff;
@@ -328,7 +328,7 @@ body.night-mode .footer-call:focus {
     transform: scale(1.08);
 }
 
-/* Text Enhancements */
+
 body.night-mode .section-blurb,
 body.night-mode h2 + p,
 body.night-mode h3 + p {
@@ -360,25 +360,25 @@ body.night-mode h3 + p {
 
     /* ------ resources section ------ */
     .helpline-btn::before {
-        content: attr(data-text); /* Swap button text */
+        content: attr(data-text); 
         font-weight: bold;
     }
 
     .helpline-btn i {
-        display: none; /* Hide icons on mobile */
+        display: none; 
     }
 
     .list-group-item {
-        flex-direction: column; /* Stack items */
+        flex-direction: column; 
         text-align: center;
     }
 
     .list-group-item span {
-        display: none; /* Hides external text */
+        display: none; 
     }
 
     .list-group-item {
-        flex-direction: column; /* Ensures buttons stack properly */
+        flex-direction: column; 
         text-align: center;
     }
 }
