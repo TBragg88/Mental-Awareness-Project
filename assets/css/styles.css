@@ -249,27 +249,6 @@ footer .social-links i:hover {
     color: var(--secondary-color);
 }
 
-/* Footer Get Help button styling */
-.footer-get-help-btn {
-    background: none;
-    border: none;
-    color: var(--secondary-color);
-    font-weight: 600;
-    font-size: 1.1rem;
-    padding: 0.5rem 1.2rem;
-    border-radius: 2rem;
-    transition: color 0.3s, background 0.3s, transform 0.3s;
-    box-shadow: none;
-    outline: none;
-}
-.footer-get-help-btn:hover,
-.footer-get-help-btn:focus {
-    color: #fff;
-    background: var(--secondary-color);
-    transform: scale(1.08);
-    text-decoration: none;
-}
-
 /* Footer Call button styling */
 .footer-call {
     color: var(--primary-color);
@@ -290,18 +269,6 @@ footer .social-links i:hover {
     border-color: var(--secondary-color);
     transform: scale(1.08);
     text-decoration: none;
-}
-body.night-mode .footer-call {
-    color: #fff;
-    background: transparent;
-    border: 2px solid #fff;
-}
-body.night-mode .footer-call:hover,
-body.night-mode .footer-call:focus {
-    color: #232946;
-    background: var(--secondary-color);
-    border-color: var(--secondary-color);
-    transform: scale(1.08);
 }
 
 /* -------------------- Utility & Global -------------------- */
@@ -373,12 +340,26 @@ h3 + div p{
     font-weight: 500;
     text-shadow: 0 1px 4px rgba(0,0,0,0.07);
 }
-
+body.night-mode #nightblurb,
 body.night-mode h2 + div > p,
 body.night-mode h3 ~ div p,
 body.night-mode p {
     color: var(--secondary-color);
     text-shadow: 0 1px 8px #23294644;
+}
+
+/* -------- footer button -------- */
+body.night-mode .footer-call {
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+}
+body.night-mode .footer-call:hover,
+body.night-mode .footer-call:focus {
+    color: #232946;
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transform: scale(1.08);
 }
 /* -------------------- Media Queries -------------------- */
 @media (max-width: 768px) {
