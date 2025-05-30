@@ -304,7 +304,11 @@ body.night-mode h3 + p {
     text-shadow: 0 1px 8px #23294644;
 }
 
-/* -------------------- Subheading Blurbs -------------------- */
+body.night-mode .hero-section,
+body.night-mode .hero-section h1 {
+    text-shadow: 0 2px 8px #000, 0 1px 2px #232946;
+}
+/* -------- Subheading Blurbs for normal mode contrast------ */
 .section-blurb,
 h2 + p,
 h3 + p {
@@ -336,7 +340,32 @@ h3 + p {
         font-size: 90%;
         line-height: 1.2;
     }
+
+    /* ------ resources section ------ */
+    .helpline-btn::before {
+        content: attr(data-text); /* Swap button text */
+        font-weight: bold;
+    }
+
+    .helpline-btn i {
+        display: none; /* Hide icons on mobile */
+    }
+
+    .list-group-item {
+        flex-direction: column; /* Stack items */
+        text-align: center;
+    }
+
+.list-group-item span {
+        display: none; /* Hides external text */
+    }
+
+    .list-group-item {
+        flex-direction: column; /* Ensures buttons stack properly */
+        text-align: center;
+    }
 }
+
 @media screen and (min-width: 1020px) {
     #info-section .card,
     #self-care .card {
