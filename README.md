@@ -141,6 +141,21 @@ Accessibility issues in both reports stemmed from contrast problems with the 'gr
     <img src="./Wireframes/updated-desktop-lighthouse.png" alt="Updated Lighthouse Color Contrast Report (Desktop)" width="320"/>
   </div>
 
+**Performance**
+After creating a mobile-sized version of the header and preloading both headers, it was still causing issues with other images and files. So, I've decided this is acceptable until it isn’t.
+
+**Accessibility**
+Changing the neutral grays to blacks and darkening a few blues improved my score.
+
+**Best Practices**  
+The improved accessibility scores are thanks to the dark mode toggle and the new burger menu, both suggested by AI tools. These features enhance usability and navigation, and I’m keeping them as essential parts of the project.
+
+<div align="center">
+  <img src="./Wireframes/burger-moon.png" alt="Burger Menu with Moon Icon" width="120"/>
+</div>
+
+
+
 -   **Manual Testing:**  
     The site was tested on multiple devices and browsers to verify responsive design and smooth navigation.
 
