@@ -111,11 +111,11 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
 
     _Tip: Images between 300–400px wide are generally clear and readable in most README views. Adjust as needed for your preferred layout._
 
-### Accessibility Checks
+### **Accessibility Checks**
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
 
-  <div align="center">
+<div align="center">
     <br/>
     <sub>Mobile Lighthouse Accessibility Report</sub>
     <br/><br/>
@@ -124,13 +124,13 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
     <sub>Desktop Lighthouse Color Contrast Report</sub>
     <br/><br/>
     <img src="./Wireframes/desktop-lighthouse.png" alt="Lighthouse Color Contrast Report (Desktop)" width="320"/>
-  </div>
+</div>
 
-\*\*"Initial testing revealed that the mobile hero image was causing mild lag, which resulted in a lower score. Preloading and resizing the image for mobile screens is recommended.
+**"Initial testing revealed that the mobile hero image was causing mild lag, resulting in a lower score. Preloading and resizing the image for mobile screens is recommended.  
 
-Accessibility issues in both reports stemmed from contrast problems with the 'greyer' text color."\*\*
+Accessibility issues in both reports stemmed from contrast problems with the 'greyer' text color."**
 
- <div align="center">
+<div align="center">
     <br/>
     <sub>Mobile Lighthouse Accessibility Report (Updated)</sub>
     <br/><br/>
@@ -139,7 +139,23 @@ Accessibility issues in both reports stemmed from contrast problems with the 'gr
     <sub>Desktop Lighthouse Color Contrast Report (Updated)</sub>
     <br/><br/>
     <img src="./Wireframes/updated-desktop-lighthouse.png" alt="Updated Lighthouse Color Contrast Report (Desktop)" width="320"/>
-  </div>
+</div>
+
+### **Performance**
+After creating a mobile-sized version of the header and preloading both headers, issues persisted with other images and files. For now, this solution is acceptable—until it isn’t.
+
+### **Accessibility**
+Changing the neutral grays to blacks and darkening a few blues improved the accessibility score.
+
+### **Best Practices**
+The dark mode toggle and the new burger menu—both provided by the AI—affected the best practices rating. I love them, so they stay.
+
+<div align="center">
+  <img src="./Wireframes/burger-moon.png" alt="Burger Menu with Moon Icon" width="120"/>
+</div>
+
+### **Manual Testing**
+The site was personally tested on **Chrome** and **Firefox** across both **4K and 1080p monitors**, as well as an **iPhone 13**.
 
 **Performance**
 After creating a mobile-sized version of the header and preloading both headers, it was still causing issues with other images and files. So, I've decided this is acceptable until it isn’t.
@@ -158,8 +174,7 @@ This is due to the dark mode toggle and the new burger menu that the AI provided
 
 
 -   **Manual Testing:**  
-    The site was tested on multiple devices and browsers to verify responsive design and smooth navigation.
-
+    The site was personally tested on Chrome and Firefox across both 4K and 1080p monitors, as well as an iPhone 13. 
 ---
 
 ## 🛠️ Local Development Setup
