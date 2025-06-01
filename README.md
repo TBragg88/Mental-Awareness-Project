@@ -75,13 +75,16 @@ The carousel was removed and replaced, as the animation and scope **outweighed t
   <img src="./Wireframes/info-section-idea.png" alt="Info section with more list-style design" width="160"/>
 </div>
 
-the content lacked enough density to justify implementation.
+The content lacked enough density to justify implementation.
 
-## 🎨 Colour Palette
+---
+## 🎨 Colour Palette  
 
-![Colour Palette](./Wireframes/colour-pallet.png)
+![Colour Palette](./Wireframes/colour-pallet.png)  
 
-The color palette was selected for its calming and accessible qualities. Soft blues and neutral tones help create a relaxed atmosphere, while accent colors provide enough contrast for clear readability. The choices aim to support a welcoming and easy-to-use experience for everyone.
+The color palette was selected for its **calming and accessible** qualities. Soft blues and neutral tones help create a **relaxed atmosphere**, while accent colors provide enough contrast for **clear readability**. The choices aim to support a **welcoming and easy-to-use** experience for everyone.  
+
+**Updated to achieve a higher accessibility score by incorporating slightly more contrasting tones.**
 
 ---
 
