@@ -75,6 +75,8 @@ The carousel was removed and replaced, as the animation and scope **outweighed t
   <img src="./Wireframes/info-section-idea.png" alt="Info section with more list-style design" width="160"/>
 </div>
 
+the content lacked enough density to justify implementation.
+
 ## 🎨 Colour Palette
 
 ![Colour Palette](./Wireframes/colour-pallet.png)
