@@ -168,7 +168,7 @@ Switching neutral grays to black and darkening some blues significantly improved
 
 ### **Best Practices**
 
-The AI-generated dark mode toggle and burger menu slightly impacted best practices ratings, but were retained for their usability benefits.
+The AI-generated dark mode toggle and burger menu slightly impacted best practices ratings, but were retained because I love the look of them.
 
 <div align="center">
   <img src="./Wireframes/burger-moon.png" alt="Burger Menu with Moon Icon" width="120"/>
