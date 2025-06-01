@@ -66,6 +66,14 @@ Initial wireframing
 </div>
 
 ---
+### **Changes to Initial Plan**  
+
+The carousel was removed and replaced, as the animation and scope **outweighed the project timeline** and the final product **did not align well** with the content's context. Other versions were tested, but ultimately, **card usage was the best fallback solution**.  
+
+<div align="center">
+  
+  <img src="./Wireframes/info-section-idea.png" alt="Info section with more list-style design" width="160"/>
+</div>
 
 ## 🎨 Colour Palette
 
@@ -126,9 +134,13 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
     <img src="./Wireframes/desktop-lighthouse.png" alt="Lighthouse Color Contrast Report (Desktop)" width="320"/>
 </div>
 
-**"Initial testing revealed that the mobile hero image was causing mild lag, resulting in a lower score. Preloading and resizing the image for mobile screens is recommended.  
+### **Initial Testing Findings**
 
-Accessibility issues in both reports stemmed from contrast problems with the 'greyer' text color."**
+-   **Performance Issue:**  
+    The mobile hero image caused mild lag, leading to a lower score. **Preloading and resizing** the image for mobile screens is recommended.
+
+-   **Accessibility Issues:**  
+    Both reports indicated contrast problems due to the **'greyer' text color**, affecting readability.
 
 <div align="center">
     <br/>
@@ -142,12 +154,15 @@ Accessibility issues in both reports stemmed from contrast problems with the 'gr
 </div>
 
 ### **Performance**
+
 After creating a mobile-sized version of the header and preloading both headers, issues persisted with other images and files. For now, this solution is acceptable—until it isn’t.
 
 ### **Accessibility**
+
 Changing the neutral grays to blacks and darkening a few blues improved the accessibility score.
 
 ### **Best Practices**
+
 The dark mode toggle and the new burger menu—both provided by the AI—affected the best practices rating. I love them, so they stay.
 
 <div align="center">
@@ -155,6 +170,7 @@ The dark mode toggle and the new burger menu—both provided by the AI—affecte
 </div>
 
 ### **Manual Testing**
+
 The site was personally tested on **Chrome** and **Firefox** across both **4K and 1080p monitors**, as well as an **iPhone 13**.
 
 **Performance**
@@ -170,11 +186,9 @@ This is due to the dark mode toggle and the new burger menu that the AI provided
   <img src="./Wireframes/burger-moon.png" alt="Burger Menu with Moon Icon" width="120"/>
 </div>
 
-
-
-
 -   **Manual Testing:**  
-    The site was personally tested on Chrome and Firefox across both 4K and 1080p monitors, as well as an iPhone 13. 
+    The site was personally tested on Chrome and Firefox across both 4K and 1080p monitors, as well as an iPhone 13.
+
 ---
 
 ## 🛠️ Local Development Setup
@@ -199,10 +213,11 @@ This is due to the dark mode toggle and the new burger menu that the AI provided
 ---
 
 ## 📜 Attribution & Credits
--   [Bootstrap](https://getbootstrap.com/) for layout  
--   [Font Awesome](https://fontawesome.com/) for icons  
--   [DALL-E](https://openai.com/dall-e) for AI-generated images  
--   [GitHub Copilot](https://github.com/features/copilot) for code and content assistance  
--   [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for code validation  
--   [Lighthouse](https://developers.google.com/web/tools/lighthouse) for accessibility and performance testing  
--   External mental health resources for content accuracy  
+
+-   [Bootstrap](https://getbootstrap.com/) for layout
+-   [Font Awesome](https://fontawesome.com/) for icons
+-   [DALL-E](https://openai.com/dall-e) for AI-generated images
+-   [GitHub Copilot](https://github.com/features/copilot) for code and content assistance
+-   [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for code validation
+-   [Lighthouse](https://developers.google.com/web/tools/lighthouse) for accessibility and performance testing
+-   External mental health resources for content accuracy
