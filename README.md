@@ -30,17 +30,6 @@ _A calming and accessible platform for mental well-being_
 -   Responsive design with media queries
 
 ---
-
-
-## 🌓 Partial Integrations
-
--   **Dark/Light Mode Toggle Animation:**  
-    More elaborate transitions were tested but replaced with a subtle, accessible toggle for a smoother experience.
-
-These decisions were made to ensure the site remains approachable, fast, and easy to navigate for all users.
-
----
-
 ## 🖼️ Screenshots & UI Flow
 
 Initial wireframing
@@ -50,18 +39,6 @@ Initial wireframing
   <img src="./Wireframes/MHTWF1.png" alt="Tablet Wireframe" width="160"/>
   <img src="./Wireframes/MHPCWF1.png" alt="Desktop Wireframe" width="160"/>
 </div>
-
----
-### **Changes to Initial Plan**  
-
-The carousel was removed and replaced, as the animation and scope **outweighed the project timeline** and the final product **did not align well** with the content's context. Other versions were tested, but ultimately, **card usage was the best fallback solution**.  
-
-<div align="center">
-  
-  <img src="./Wireframes/info-section-idea.png" alt="Info section with more list-style design" width="160"/>
-</div>
-
-The content lacked enough density to justify implementation.
 
 ---
 ## 🎨 Colour Palette  
@@ -120,6 +97,26 @@ The Awareness Project delivers a focused set of features designed for clarity, a
     <img src="./Wireframes/footerdark.png" alt="Footer section in dark mode" width="320"/>
   </div>
 
+### **Changes to Initial Plan**  
+
+The carousel was removed and replaced, as the animation and scope **outweighed the project timeline** and the final product **did not align well** with the content's context. Other versions were tested, but ultimately, **card usage was the best fallback solution**.  
+
+<div align="center">
+  
+  <img src="./Wireframes/info-section-idea.png" alt="Info section with more list-style design" width="160"/>
+</div>
+
+The content lacked enough density to justify implementation.
+
+---
+## 🌓 Partial Integrations
+
+-   **Dark/Light Mode Toggle Animation:**  
+    More elaborate transitions were tested but replaced with a subtle, accessible toggle for a smoother experience.
+
+These decisions were made to ensure the site remains approachable, fast, and easy to navigate for all users.
+
+---
 ## 🛠️ Features Considered But Not Included
 
 During development, several features were explored but not included to maintain clarity, accessibility, and a calming user experience:
