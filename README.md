@@ -105,7 +105,7 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   Custom hero images are used for both desktop and mobile, preloaded for faster performance and optimized for clarity.
 
   <div align="center">
-    <img src="./Wireframes/hero.png" alt="Hero Image (Desktop)" width="320"/><br/>
+    <img src="./Wireframes/hero.png" alt="Hero Image (Desktop)" width="320"/>
     <img src="./Wireframes/herodark.png" alt="Hero Image (Mobile)" width="320"/>
   </div>
 
@@ -113,7 +113,7 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   Informational sections feature supportive imagery to visually reinforce key concepts, with alt text for accessibility.
 
   <div align="center">
-    <img src="./Wireframes/Infosection.png" alt="Info Section Example 1" width="320"/><br/>
+    <img src="./Wireframes/Infosection.png" alt="Info Section Example 1" width="320"/>
     <img src="./Wireframes/infosectiondark.png" alt="Info Section Example 2" width="320"/>
   </div>
 
@@ -121,7 +121,7 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   Resource cards are designed for clarity and quick access, with concise content and icons that remain easy to read and engage with—even on smaller screens. 
   
   <div align="center">
-    <img src="./Wireframes/Resources.png" alt="Resource Card Example 1" width="320"/><br/>
+    <img src="./Wireframes/Resources.png" alt="Resource Card Example 1" width="320"/>
     <img src="./Wireframes/resourcesdark.png" alt="Resource Card Example 2" width="320"/><br/>
     <img src="./Wireframes/resourcesmobile.png" alt="Resource Card Example 2" width="320"/>
   </div>
