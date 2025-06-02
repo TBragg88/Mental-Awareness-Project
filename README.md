@@ -87,6 +87,33 @@ The color palette was selected for its **calming and accessible** qualities. Sof
 **Updated to achieve a higher accessibility score by incorporating slightly more contrasting tones.**
 
 ---
+## ✨ Features
+
+The Awareness Project delivers a focused set of features designed for clarity, accessibility, and a calming user experience:
+
+- **Responsive Navigation Bar:**  
+  The navigation adapts seamlessly across devices, ensuring intuitive access whether on desktop or mobile. Both light and dark modes are supported for user comfort.
+
+<div align="center">
+
+  <img src="./Wireframes/navbar.png" alt="Navbar (Light Mode, Desktop)" width="320"/><br/>
+  <img src="./Wireframes/navbardark.png" alt="Navbar (Dark Mode, Desktop)" width="320"/><br/>
+  <img src="./Wireframes/navbarmobile.png" alt="Navbar (Light Mode, Mobile)" width="320"/><br/>
+  <img src="./Wireframes/navbardarkmobile.png" alt="Navbar (Dark Mode, Mobile)" width="320"/>
+
+</div>
+
+- **Accessible Design:**  
+  All navigation elements are keyboard-friendly and include appropriate ARIA labels for screen readers.
+
+- **Dark/Light Mode Toggle:**  
+  Easily switch between calming light and dark themes to suit your environment and preference.
+
+- **Mobile-First Layout:**  
+  The site is optimized for mobile devices, with touch-friendly controls and adaptive layouts.
+
+---
+
 
 ## 🚀 How AI Was Used
 
