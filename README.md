@@ -95,9 +95,9 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   The navigation adapts seamlessly across devices, ensuring intuitive access whether on desktop or mobile. Both light and dark modes are supported for user comfort.
 
   <div align="center">
-    <img src="./Wireframes/navbar.png" alt="Navigation bar in light mode on desktop" width="320"/><br/>
-    <img src="./Wireframes/navbardark.png" alt="Navigation bar in dark mode on desktop" width="320"/><br/>
+    <img src="./Wireframes/navbar.png" alt="Navigation bar in light mode on desktop" width="320"/>
     <img src="./Wireframes/navbarmobile.png" alt="Navigation bar in light mode on mobile" width="320"/><br/>
+    <img src="./Wireframes/navbardark.png" alt="Navigation bar in dark mode on desktop" width="320"/>
     <img src="./Wireframes/navbardarkmobile.png" alt="Navigation bar in dark mode on mobile" width="320"/>
   </div>
 
