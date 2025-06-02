@@ -95,43 +95,43 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   The navigation adapts seamlessly across devices, ensuring intuitive access whether on desktop or mobile. Both light and dark modes are supported for user comfort.
 
   <div align="center">
-    <img src="./Wireframes/navbar.png" alt="Navbar (Light Mode, Desktop)" width="320"/><br/>
-    <img src="./Wireframes/navbardark.png" alt="Navbar (Dark Mode, Desktop)" width="320"/><br/>
-    <img src="./Wireframes/navbarmobile.png" alt="Navbar (Light Mode, Mobile)" width="320"/><br/>
-    <img src="./Wireframes/navbardarkmobile.png" alt="Navbar (Dark Mode, Mobile)" width="320"/>
+    <img src="./Wireframes/navbar.png" alt="Navigation bar in light mode on desktop" width="320"/><br/>
+    <img src="./Wireframes/navbardark.png" alt="Navigation bar in dark mode on desktop" width="320"/><br/>
+    <img src="./Wireframes/navbarmobile.png" alt="Navigation bar in light mode on mobile" width="320"/><br/>
+    <img src="./Wireframes/navbardarkmobile.png" alt="Navigation bar in dark mode on mobile" width="320"/>
   </div>
 
 - **Hero Images:**  
   Custom hero images are used for both desktop and mobile, preloaded for faster performance and optimized for clarity.
 
   <div align="center">
-    <img src="./Wireframes/hero.png" alt="Hero Image (Desktop)" width="320"/>
-    <img src="./Wireframes/herodark.png" alt="Hero Image (Mobile)" width="320"/>
+    <img src="./Wireframes/hero.png" alt="Hero section image for desktop" width="320"/>
+    <img src="./Wireframes/herodark.png" alt="Hero section image for mobile in dark mode" width="320"/>
   </div>
 
 - **Info Section Images:**  
   Informational sections feature supportive imagery to visually reinforce key concepts, with alt text for accessibility.
 
   <div align="center">
-    <img src="./Wireframes/Infosection.png" alt="Info Section Example 1" width="320"/>
-    <img src="./Wireframes/infosectiondark.png" alt="Info Section Example 2" width="320"/>
+    <img src="./Wireframes/Infosection.png" alt="Info section info section in light mode" width="320"/>
+    <img src="./Wireframes/infosectiondark.png" alt="Info section info section in dark mode" width="320"/>
   </div>
 
 - **Resources Images:**  
   Resource cards are designed for clarity and quick access, with concise content and icons that remain easy to read and engage with—even on smaller screens. 
   
   <div align="center">
-    <img src="./Wireframes/Resources.png" alt="Resource Card Example 1" width="320"/>
-    <img src="./Wireframes/resourcesdark.png" alt="Resource Card Example 2" width="320"/><br/>
-    <img src="./Wireframes/resourcesmobile.png" alt="Resource Card Example 2" width="320"/>
+    <img src="./Wireframes/Resources.png" alt="Resource cards in light mode" width="320"/>
+    <img src="./Wireframes/resourcesdark.png" alt="Resource cards in dark mode" width="320"/><br/>
+    <img src="./Wireframes/resourcesmobile.png" alt="Resource cards on mobile" width="320"/>
   </div>
 
 - **Footer Images:**  
   The footer contains all essential links to the website, including external donation pages and social media profiles, while maintaining subtle, calming visuals and icons for a cohesive and welcoming look throughout the site.
   
    <div align="center">
-    <img src="./Wireframes/footer.png" alt="Footer Example 1" width="320"/>
-    <img src="./Wireframes/footerdark.png" alt="Footer Example 2" width="320"/>
+    <img src="./Wireframes/footer.png" alt="Footer section in light mode" width="320"/>
+    <img src="./Wireframes/footerdark.png" alt="Footer section in dark mode" width="320"/>
   </div>
 
  
@@ -169,8 +169,7 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
       <img src="./Wireframes/css-validation.png" alt="CSS Validation Result" width="320"/>
     </div>
 
-    _Tip: Images between 300–400px wide are generally clear and readable in most README views. Adjust as needed for your preferred layout._
-
+  
 ### **Accessibility Checks**
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess accessibility, color contrast, and best practices.
