@@ -94,16 +94,46 @@ The Awareness Project delivers a focused set of features designed for clarity, a
 - **Responsive Navigation Bar:**  
   The navigation adapts seamlessly across devices, ensuring intuitive access whether on desktop or mobile. Both light and dark modes are supported for user comfort.
 
-<div align="center">
+  <div align="center">
+    <img src="./Wireframes/navbar.png" alt="Navbar (Light Mode, Desktop)" width="320"/><br/>
+    <img src="./Wireframes/navbardark.png" alt="Navbar (Dark Mode, Desktop)" width="320"/><br/>
+    <img src="./Wireframes/navbarmobile.png" alt="Navbar (Light Mode, Mobile)" width="320"/><br/>
+    <img src="./Wireframes/navbardarkmobile.png" alt="Navbar (Dark Mode, Mobile)" width="320"/>
+  </div>
 
-  <img src="./Wireframes/navbar.png" alt="Navbar (Light Mode, Desktop)" width="320"/><br/>
-  <img src="./Wireframes/navbardark.png" alt="Navbar (Dark Mode, Desktop)" width="320"/><br/>
-  <img src="./Wireframes/navbarmobile.png" alt="Navbar (Light Mode, Mobile)" width="320"/><br/>
-  <img src="./Wireframes/navbardarkmobile.png" alt="Navbar (Dark Mode, Mobile)" width="320"/>
+- **Hero Images:**  
+  Custom hero images are used for both desktop and mobile, preloaded for faster performance and optimized for clarity.
 
-</div>
+  <div align="center">
+    <img src="./Wireframes/hero.png" alt="Hero Image (Desktop)" width="320"/><br/>
+    <img src="./Wireframes/herodark.png" alt="Hero Image (Mobile)" width="320"/>
+  </div>
 
-- **Accessible Design:**  
+- **Info Section Images:**  
+  Informational sections feature supportive imagery to visually reinforce key concepts, with alt text for accessibility.
+
+  <div align="center">
+    <img src="./Wireframes/infosection.png" alt="Info Section Example 1" width="320"/><br/>
+    <img src="./Wireframes/infosectiondark.png" alt="Info Section Example 2" width="320"/>
+  </div>
+
+- **Resources Images:**  
+  Resource cards include relevant icons and illustrations, helping users quickly identify and engage with helpful content.
+
+  <div align="center">
+    <img src="./Wireframes/Resources.png" alt="Resource Card Example 1" width="320"/><br/>
+    <img src="./Wireframes/resourcesdark.png" alt="Resource Card Example 2" width="320"/>
+  </div>
+
+- **Footer Images:**  
+  The footer contains subtle, calming visuals and icons to maintain a cohesive and welcoming look throughout the site.
+
+  <div align="center">
+    <img src="./Wireframes/footer.png" alt="Footer Example 1" width="320"/><br/>
+    <img src="./Wireframes/footerdark.png" alt="Footer Example 2" width="320"/>
+  </div>
+
+  - **Accessible Design:**  
   All navigation elements are keyboard-friendly and include appropriate ARIA labels for screen readers.
 
 - **Dark/Light Mode Toggle:**  
@@ -111,8 +141,6 @@ The Awareness Project delivers a focused set of features designed for clarity, a
 
 - **Mobile-First Layout:**  
   The site is optimized for mobile devices, with touch-friendly controls and adaptive layouts.
-
----
 
 
 ## 🚀 How AI Was Used
