@@ -97,12 +97,13 @@ The Awareness Project delivers a focused set of features designed for clarity, a
     <img src="./Wireframes/footerdark.png" alt="Footer section in dark mode" width="320"/>
   </div>
 
-### **Changes to Initial Plan**  
+---
+
+## 🔄 Changes to Initial Plan  
 
 The carousel was removed and replaced, as the animation and scope **outweighed the project timeline** and the final product **did not align well** with the content's context. Other versions were tested, but ultimately, **card usage was the best fallback solution**.  
 
 <div align="center">
-  
   <img src="./Wireframes/info-section-idea.png" alt="Info section with more list-style design" width="160"/>
 </div>
 
