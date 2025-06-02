@@ -118,33 +118,23 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   </div>
 
 - **Resources Images:**  
-  Resource cards include relevant icons and illustrations, helping users quickly identify and engage with helpful content.
-
+  Resource cards are designed for clarity and quick access, with concise content and icons that remain easy to read and engage with—even on smaller screens. 
+  
   <div align="center">
     <img src="./Wireframes/Resources.png" alt="Resource Card Example 1" width="320"/><br/>
     <img src="./Wireframes/resourcesdark.png" alt="Resource Card Example 2" width="320"/><br/>
     <img src="./Wireframes/resourcesmobile.png" alt="Resource Card Example 2" width="320"/>
-
   </div>
 
 - **Footer Images:**  
-  The footer contains subtle, calming visuals and icons to maintain a cohesive and welcoming look throughout the site.
-
-  <div align="center">
+  The footer contains all essential links to the website, including external donation pages and social media profiles, while maintaining subtle, calming visuals and icons for a cohesive and welcoming look throughout the site.
+  
+   <div align="center">
     <img src="./Wireframes/footer.png" alt="Footer Example 1" width="320"/><br/>
     <img src="./Wireframes/footerdark.png" alt="Footer Example 2" width="320"/>
   </div>
 
-  - **Accessible Design:**  
-  All navigation elements are keyboard-friendly and include appropriate ARIA labels for screen readers.
-
-- **Dark/Light Mode Toggle:**  
-  Easily switch between calming light and dark themes to suit your environment and preference.
-
-- **Mobile-First Layout:**  
-  The site is optimized for mobile devices, with touch-friendly controls and adaptive layouts.
-
-
+ 
 ## 🚀 How AI Was Used
 
 Artificial Intelligence played a crucial role in shaping this project, streamlining development, and improving overall efficiency. Here’s how AI was leveraged:
