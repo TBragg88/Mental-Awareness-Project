@@ -130,7 +130,7 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   The footer contains all essential links to the website, including external donation pages and social media profiles, while maintaining subtle, calming visuals and icons for a cohesive and welcoming look throughout the site.
   
    <div align="center">
-    <img src="./Wireframes/footer.png" alt="Footer Example 1" width="320"/><br/>
+    <img src="./Wireframes/footer.png" alt="Footer Example 1" width="320"/>
     <img src="./Wireframes/footerdark.png" alt="Footer Example 2" width="320"/>
   </div>
 
