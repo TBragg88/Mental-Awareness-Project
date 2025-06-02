@@ -113,7 +113,7 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   Informational sections feature supportive imagery to visually reinforce key concepts, with alt text for accessibility.
 
   <div align="center">
-    <img src="./Wireframes/infosection.png" alt="Info Section Example 1" width="320"/><br/>
+    <img src="./Wireframes/Infosection.png" alt="Info Section Example 1" width="320"/><br/>
     <img src="./Wireframes/infosectiondark.png" alt="Info Section Example 2" width="320"/>
   </div>
 
@@ -122,7 +122,9 @@ The Awareness Project delivers a focused set of features designed for clarity, a
 
   <div align="center">
     <img src="./Wireframes/Resources.png" alt="Resource Card Example 1" width="320"/><br/>
-    <img src="./Wireframes/resourcesdark.png" alt="Resource Card Example 2" width="320"/>
+    <img src="./Wireframes/resourcesdark.png" alt="Resource Card Example 2" width="320"/><br/>
+    <img src="./Wireframes/resourcesmobile.png" alt="Resource Card Example 2" width="320"/>
+
   </div>
 
 - **Footer Images:**  
