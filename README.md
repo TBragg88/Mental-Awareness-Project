@@ -72,6 +72,13 @@ The Awareness Project delivers a focused set of features designed for clarity, a
     <img src="./Wireframes/herodark.png" alt="Hero section image for mobile in dark mode" width="320"/>
   </div>
 
+  - **Affirmations Linebreak:**  
+    A calming linebreak script is used to visually separate the site's sections, helping users pause and refocus. This uses javascript as a library and animation cycle. 
+
+    <div align="center">
+      <img src="./Wireframes/linebreak.png" alt="Affirmations section linebreak" width="320"/>
+    </div>
+
 - **Info Section Images:**  
   Informational sections feature supportive imagery to visually reinforce key concepts, with alt text for accessibility.
 
