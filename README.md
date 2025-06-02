@@ -118,12 +118,12 @@ The Awareness Project delivers a focused set of features designed for clarity, a
   </div>
 
 - **Resources Images:**  
-  Resource cards are designed for clarity and quick access, with concise content and icons that remain easy to read and engage with—even on smaller screens. 
-  
+  Helpline numbers are presented in a clear, accessible format that scales seamlessly across devices. Each helpline is displayed with concise information and supportive icons, ensuring users can quickly find and contact the right support—whether on desktop or mobile.
+
   <div align="center">
-    <img src="./Wireframes/Resources.png" alt="Resource cards in light mode" width="320"/>
-    <img src="./Wireframes/resourcesdark.png" alt="Resource cards in dark mode" width="320"/><br/>
-    <img src="./Wireframes/resourcesmobile.png" alt="Resource cards on mobile" width="320"/>
+    <img src="./Wireframes/Resources.png" alt="Helpline numbers in light mode" width="320"/>
+    <img src="./Wireframes/resourcesdark.png" alt="Helpline numbers in dark mode" width="320"/><br/>
+    <img src="./Wireframes/resourcesmobile.png" alt="Helpline numbers on mobile" width="320"/>
   </div>
 
 - **Footer Images:**  
