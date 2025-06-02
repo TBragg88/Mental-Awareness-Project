@@ -160,7 +160,7 @@ Artificial Intelligence played a crucial role in shaping this project, streamlin
 
 ### **Performance**
 
-A mobile-optimized header image was created and both headers are now preloaded. While this improved performance, some lag remains with other images and files. The current solution is sufficient for now.
+A mobile-optimized header image was created, and both headers are now preloaded. While this has improved performance, some lag persists with other images and files—specifically on mobile, which is less than ideal.
 
 ### **Accessibility**
 
@@ -168,7 +168,7 @@ Switching neutral grays to black and darkening some blues significantly improved
 
 ### **Best Practices**
 
-The AI-generated dark mode toggle and burger menu slightly impacted best practices ratings, but were retained because I love the look of them.
+the "burger" and nightmode toggler was causing problems, but with copilot we managed to streamline them to achieve perfect scores
 
 <div align="center">
   <img src="./Wireframes/burger-moon.png" alt="Burger Menu with Moon Icon" width="120"/>
